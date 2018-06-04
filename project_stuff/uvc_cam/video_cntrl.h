@@ -1,0 +1,382 @@
+#ifndef __LINUX_VIDEO_CONTROLS_H
+#define __LINUX_VIDEO_CONTROLS_H
+
+// add
+
+#define VFL_DIR_RX      0
+#define VFL_DIR_TX      1
+#define VFL_DIR_M2M     2
+
+// add
+
+/* Buffer is mapped (flag) */
+#define VIDEO_BUF_FLAG_MAPPED        0x00000001
+/* Buffer is queued for processing */
+#define VIDEO_BUF_FLAG_QUEUED        0x00000002
+/* Buffer is ready */
+#define VIDEO_BUF_FLAG_DONE       0x00000004
+/* Image is a keyframe (I-frame) */
+#define VIDEO_BUF_FLAG_KEYFRAME         0x00000008
+/* Image is a P-frame */
+#define VIDEO_BUF_FLAG_PFRAME        0x00000010
+/* Image is a B-frame */
+#define VIDEO_BUF_FLAG_BFRAME        0x00000020
+/* Buffer is ready, but the data contained within is corrupted. */
+#define VIDEO_BUF_FLAG_ERROR         0x00000040
+/* timecode field is valid */
+#define VIDEO_BUF_FLAG_TIMECODE         0x00000100
+/* Buffer is prepared for queuing */
+#define VIDEO_BUF_FLAG_PREPARED         0x00000400
+/* Cache handling flags */
+#define VIDEO_BUF_FLAG_NO_CACHE_INVALIDATE 0x00000800
+#define VIDEO_BUF_FLAG_NO_CACHE_CLEAN      0x00001000
+/* Timestamp type */
+#define VIDEO_BUF_FLAG_TIMESTAMP_MASK      0x0000e000
+#define VIDEO_BUF_FLAG_TIMESTAMP_UNKNOWN      0x00000000
+#define VIDEO_BUF_FLAG_TIMESTAMP_MONOTONIC 0x00002000
+#define VIDEO_BUF_FLAG_TIMESTAMP_COPY      0x00004000
+/* Timestamp sources. */
+#define VIDEO_BUF_FLAG_TSTAMP_SRC_MASK     0x00070000
+#define VIDEO_BUF_FLAG_TSTAMP_SRC_EOF      0x00000000
+#define VIDEO_BUF_FLAG_TSTAMP_SRC_SOE      0x00010000
+/* mem2mem encoder/decoder */
+#define VIDEO_BUF_FLAG_LAST       0x00100000
+
+
+
+
+
+
+
+
+/* Control classes */
+#define VIDEO_CTRL_CLASS_USER     0x00980000  /* Old-style 'user' controls */
+#define VIDEO_CTRL_CLASS_MPEG     0x00990000  /* MPEG-compression controls */
+#define VIDEO_CTRL_CLASS_CAMERA      0x009a0000  /* Camera class controls */
+#define VIDEO_CTRL_CLASS_FM_TX    0x009b0000  /* FM Modulator controls */
+#define VIDEO_CTRL_CLASS_FLASH    0x009c0000  /* Camera flash controls */
+#define VIDEO_CTRL_CLASS_JPEG     0x009d0000  /* JPEG-compression controls */
+#define VIDEO_CTRL_CLASS_IMAGE_SOURCE   0x009e0000  /* Image source controls */
+#define VIDEO_CTRL_CLASS_IMAGE_PROC  0x009f0000  /* Image processing controls */
+#define VIDEO_CTRL_CLASS_DV    0x00a00000  /* Digital Video controls */
+#define VIDEO_CTRL_CLASS_FM_RX    0x00a10000  /* FM Receiver controls */
+#define VIDEO_CTRL_CLASS_RF_TUNER 0x00a20000  /* RF tuner controls */
+#define VIDEO_CTRL_CLASS_DETECT      0x00a30000  /* Detection controls */
+
+/* User-class control IDs */
+
+#define VIDEO_CID_BASE         (VIDEO_CTRL_CLASS_USER | 0x900)
+#define VIDEO_CID_USER_BASE       VIDEO_CID_BASE
+#define VIDEO_CID_USER_CLASS      (VIDEO_CTRL_CLASS_USER | 1)
+#define VIDEO_CID_BRIGHTNESS      (VIDEO_CID_BASE+0)
+#define VIDEO_CID_CONTRAST     (VIDEO_CID_BASE+1)
+#define VIDEO_CID_SATURATION      (VIDEO_CID_BASE+2)
+#define VIDEO_CID_HUE       (VIDEO_CID_BASE+3)
+#define VIDEO_CID_AUDIO_VOLUME    (VIDEO_CID_BASE+5)
+#define VIDEO_CID_AUDIO_BALANCE      (VIDEO_CID_BASE+6)
+#define VIDEO_CID_AUDIO_BASS      (VIDEO_CID_BASE+7)
+#define VIDEO_CID_AUDIO_TREBLE    (VIDEO_CID_BASE+8)
+#define VIDEO_CID_AUDIO_MUTE      (VIDEO_CID_BASE+9)
+#define VIDEO_CID_AUDIO_LOUDNESS     (VIDEO_CID_BASE+10)
+#define VIDEO_CID_BLACK_LEVEL     (VIDEO_CID_BASE+11) /* Deprecated */
+#define VIDEO_CID_AUTO_WHITE_BALANCE (VIDEO_CID_BASE+12)
+#define VIDEO_CID_DO_WHITE_BALANCE   (VIDEO_CID_BASE+13)
+#define VIDEO_CID_RED_BALANCE     (VIDEO_CID_BASE+14)
+#define VIDEO_CID_BLUE_BALANCE    (VIDEO_CID_BASE+15)
+#define VIDEO_CID_GAMMA        (VIDEO_CID_BASE+16)
+#define VIDEO_CID_WHITENESS    (VIDEO_CID_GAMMA) /* Deprecated */
+#define VIDEO_CID_EXPOSURE     (VIDEO_CID_BASE+17)
+#define VIDEO_CID_AUTOGAIN     (VIDEO_CID_BASE+18)
+#define VIDEO_CID_GAIN         (VIDEO_CID_BASE+19)
+#define VIDEO_CID_HFLIP        (VIDEO_CID_BASE+20)
+#define VIDEO_CID_VFLIP        (VIDEO_CID_BASE+21)
+
+#define VIDEO_CID_POWER_LINE_FREQUENCY  (VIDEO_CID_BASE+24)
+enum video_power_line_frequency {
+    VIDEO_CID_POWER_LINE_FREQUENCY_DISABLED = 0,
+    VIDEO_CID_POWER_LINE_FREQUENCY_50HZ  = 1,
+    VIDEO_CID_POWER_LINE_FREQUENCY_60HZ  = 2,
+    VIDEO_CID_POWER_LINE_FREQUENCY_AUTO  = 3,
+};
+#define VIDEO_CID_HUE_AUTO        (VIDEO_CID_BASE+25) //p
+#define VIDEO_CID_WHITE_BALANCE_TEMPERATURE   (VIDEO_CID_BASE+26)
+#define VIDEO_CID_SHARPNESS       (VIDEO_CID_BASE+27)
+#define VIDEO_CID_BACKLIGHT_COMPENSATION   (VIDEO_CID_BASE+28)
+#define VIDEO_CID_CHROMA_AGC                     (VIDEO_CID_BASE+29)
+#define VIDEO_CID_COLOR_KILLER                   (VIDEO_CID_BASE+30)
+#define VIDEO_CID_COLORFX         (VIDEO_CID_BASE+31)
+enum video_colorfx {
+    VIDEO_COLORFX_NONE       = 0,
+    VIDEO_COLORFX_BW            = 1,
+    VIDEO_COLORFX_SEPIA         = 2,
+    VIDEO_COLORFX_NEGATIVE         = 3,
+    VIDEO_COLORFX_EMBOSS        = 4,
+    VIDEO_COLORFX_SKETCH        = 5,
+    VIDEO_COLORFX_SKY_BLUE         = 6,
+    VIDEO_COLORFX_GRASS_GREEN      = 7,
+    VIDEO_COLORFX_SKIN_WHITEN      = 8,
+    VIDEO_COLORFX_VIVID         = 9,
+    VIDEO_COLORFX_AQUA       = 10,
+    VIDEO_COLORFX_ART_FREEZE       = 11,
+    VIDEO_COLORFX_SILHOUETTE       = 12,
+    VIDEO_COLORFX_SOLARIZATION     = 13,
+    VIDEO_COLORFX_ANTIQUE       = 14,
+    VIDEO_COLORFX_SET_CBCR         = 15,
+};
+#define VIDEO_CID_AUTOBRIGHTNESS        (VIDEO_CID_BASE+32)
+#define VIDEO_CID_BAND_STOP_FILTER      (VIDEO_CID_BASE+33)
+
+#define VIDEO_CID_ROTATE          (VIDEO_CID_BASE+34)
+#define VIDEO_CID_BG_COLOR        (VIDEO_CID_BASE+35)
+
+#define VIDEO_CID_CHROMA_GAIN                    (VIDEO_CID_BASE+36)
+
+#define VIDEO_CID_ILLUMINATORS_1        (VIDEO_CID_BASE+37)
+#define VIDEO_CID_ILLUMINATORS_2        (VIDEO_CID_BASE+38)
+
+#define VIDEO_CID_MIN_BUFFERS_FOR_CAPTURE  (VIDEO_CID_BASE+39)
+#define VIDEO_CID_MIN_BUFFERS_FOR_OUTPUT      (VIDEO_CID_BASE+40)
+
+#define VIDEO_CID_ALPHA_COMPONENT    (VIDEO_CID_BASE+41)
+#define VIDEO_CID_COLORFX_CBCR       (VIDEO_CID_BASE+42)
+
+
+
+// add r
+
+/* Values for 'capabilities' field */
+#define VIDEO_CAP_VIDEO_CAPTURE      0x00000001  /* Is a video capture device */
+#define VIDEO_CAP_VIDEO_OUTPUT    0x00000002  /* Is a video output device */
+#define VIDEO_CAP_VIDEO_OVERLAY      0x00000004  /* Can do video overlay */
+#define VIDEO_CAP_VBI_CAPTURE     0x00000010  /* Is a raw VBI capture device */
+#define VIDEO_CAP_VBI_OUTPUT      0x00000020  /* Is a raw VBI output device */
+#define VIDEO_CAP_SLICED_VBI_CAPTURE 0x00000040  /* Is a sliced VBI capture device */
+#define VIDEO_CAP_SLICED_VBI_OUTPUT  0x00000080  /* Is a sliced VBI output device */
+#define VIDEO_CAP_RDS_CAPTURE     0x00000100  /* RDS data capture */
+#define VIDEO_CAP_VIDEO_OUTPUT_OVERLAY  0x00000200  /* Can do video output overlay */
+#define VIDEO_CAP_HW_FREQ_SEEK    0x00000400  /* Can do hardware frequency seek  */
+#define VIDEO_CAP_RDS_OUTPUT      0x00000800  /* Is an RDS encoder */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The MPEG controls are applicable to all codec controls
+ *  * and the 'MPEG' part of the define is historical */
+
+#define VIDEO_CID_MPEG_BASE          (VIDEO_CTRL_CLASS_MPEG | 0x900)
+#define VIDEO_CID_MPEG_CLASS         (VIDEO_CTRL_CLASS_MPEG | 1)
+
+/*  MPEG streams, specific to multiplexed streams */
+#define VIDEO_CID_MPEG_STREAM_TYPE      (VIDEO_CID_MPEG_BASE+0)
+enum video_mpeg_stream_type {
+    VIDEO_MPEG_STREAM_TYPE_MPEG2_PS   = 0, /* MPEG-2 program stream */
+    VIDEO_MPEG_STREAM_TYPE_MPEG2_TS   = 1, /* MPEG-2 transport stream */
+    VIDEO_MPEG_STREAM_TYPE_MPEG1_SS   = 2, /* MPEG-1 system stream */
+    VIDEO_MPEG_STREAM_TYPE_MPEG2_DVD  = 3, /* MPEG-2 DVD-compatible stream */
+    VIDEO_MPEG_STREAM_TYPE_MPEG1_VCD  = 4, /* MPEG-1 VCD-compatible stream */
+    VIDEO_MPEG_STREAM_TYPE_MPEG2_SVCD = 5, /* MPEG-2 SVCD-compatible stream */
+};
+#define VIDEO_CID_MPEG_STREAM_PID_PMT      (VIDEO_CID_MPEG_BASE+1)
+#define VIDEO_CID_MPEG_STREAM_PID_AUDIO       (VIDEO_CID_MPEG_BASE+2)
+#define VIDEO_CID_MPEG_STREAM_PID_VIDEO       (VIDEO_CID_MPEG_BASE+3)
+#define VIDEO_CID_MPEG_STREAM_PID_PCR      (VIDEO_CID_MPEG_BASE+4)
+#define VIDEO_CID_MPEG_STREAM_PES_ID_AUDIO    (VIDEO_CID_MPEG_BASE+5)
+#define VIDEO_CID_MPEG_STREAM_PES_ID_VIDEO    (VIDEO_CID_MPEG_BASE+6)
+#define VIDEO_CID_MPEG_STREAM_VBI_FMT      (VIDEO_CID_MPEG_BASE+7)
+enum video_mpeg_stream_vbi_fmt {
+    VIDEO_MPEG_STREAM_VBI_FMT_NONE = 0,  /* No VBI in the MPEG stream */
+    VIDEO_MPEG_STREAM_VBI_FMT_IVTV = 1,  /* VBI in private packets, IVTV format */
+};
+
+#define VIDEO_CID_MPEG_AUDIO_DEC_MULTILINGUAL_PLAYBACK (VIDEO_CID_MPEG_BASE+113)
+
+/*  MPEG video controls specific to multiplexed streams */
+#define VIDEO_CID_MPEG_VIDEO_ENCODING      (VIDEO_CID_MPEG_BASE+200)
+enum video_mpeg_video_encoding {
+    VIDEO_MPEG_VIDEO_ENCODING_MPEG_1     = 0,
+    VIDEO_MPEG_VIDEO_ENCODING_MPEG_2     = 1,
+    VIDEO_MPEG_VIDEO_ENCODING_MPEG_4_AVC = 2,
+};
+#define VIDEO_CID_MPEG_VIDEO_ASPECT     (VIDEO_CID_MPEG_BASE+201)
+enum video_mpeg_video_aspect {
+    VIDEO_MPEG_VIDEO_ASPECT_1x1     = 0,
+    VIDEO_MPEG_VIDEO_ASPECT_4x3     = 1,
+    VIDEO_MPEG_VIDEO_ASPECT_16x9    = 2,
+    VIDEO_MPEG_VIDEO_ASPECT_221x100 = 3,
+};
+#define VIDEO_CID_MPEG_VIDEO_B_FRAMES      (VIDEO_CID_MPEG_BASE+202)
+#define VIDEO_CID_MPEG_VIDEO_GOP_SIZE      (VIDEO_CID_MPEG_BASE+203)
+#define VIDEO_CID_MPEG_VIDEO_GOP_CLOSURE   (VIDEO_CID_MPEG_BASE+204)
+#define VIDEO_CID_MPEG_VIDEO_PULLDOWN      (VIDEO_CID_MPEG_BASE+205)
+#define VIDEO_CID_MPEG_VIDEO_BITRATE_MODE  (VIDEO_CID_MPEG_BASE+206)
+enum video_mpeg_video_bitrate_mode {
+    VIDEO_MPEG_VIDEO_BITRATE_MODE_VBR = 0,
+    VIDEO_MPEG_VIDEO_BITRATE_MODE_CBR = 1,
+};
+#define VIDEO_CID_MPEG_VIDEO_BITRATE       (VIDEO_CID_MPEG_BASE+207)
+#define VIDEO_CID_MPEG_VIDEO_BITRATE_PEAK  (VIDEO_CID_MPEG_BASE+208)
+#define VIDEO_CID_MPEG_VIDEO_TEMPORAL_DECIMATION (VIDEO_CID_MPEG_BASE+209)
+#define VIDEO_CID_MPEG_VIDEO_MUTE       (VIDEO_CID_MPEG_BASE+210)
+#define VIDEO_CID_MPEG_VIDEO_MUTE_YUV      (VIDEO_CID_MPEG_BASE+211)
+#define VIDEO_CID_MPEG_VIDEO_DECODER_SLICE_INTERFACE      (VIDEO_CID_MPEG_BASE+212)
+#define VIDEO_CID_MPEG_VIDEO_DECODER_MPEG4_DEBLOCK_FILTER (VIDEO_CID_MPEG_BASE+213)
+#define VIDEO_CID_MPEG_VIDEO_CYCLIC_INTRA_REFRESH_MB      (VIDEO_CID_MPEG_BASE+214)
+#define VIDEO_CID_MPEG_VIDEO_FRAME_RC_ENABLE        (VIDEO_CID_MPEG_BASE+215)
+#define VIDEO_CID_MPEG_VIDEO_HEADER_MODE            (VIDEO_CID_MPEG_BASE+216)
+enum video_mpeg_video_header_mode {
+    VIDEO_MPEG_VIDEO_HEADER_MODE_SEPARATE         = 0,
+    VIDEO_MPEG_VIDEO_HEADER_MODE_JOINED_WITH_1ST_FRAME  = 1,
+
+};
+#define VIDEO_CID_MPEG_VIDEO_MAX_REF_PIC         (VIDEO_CID_MPEG_BASE+217)
+#define VIDEO_CID_MPEG_VIDEO_MB_RC_ENABLE     (VIDEO_CID_MPEG_BASE+218)
+#define VIDEO_CID_MPEG_VIDEO_MULTI_SLICE_MAX_BYTES  (VIDEO_CID_MPEG_BASE+219)
+#define VIDEO_CID_MPEG_VIDEO_MULTI_SLICE_MAX_MB     (VIDEO_CID_MPEG_BASE+220)
+#define VIDEO_CID_MPEG_VIDEO_MULTI_SLICE_MODE    (VIDEO_CID_MPEG_BASE+221)
+enum video_mpeg_video_multi_slice_mode {
+    VIDEO_MPEG_VIDEO_MULTI_SLICE_MODE_SINGLE      = 0,
+    VIDEO_MPEG_VIDEO_MULTI_SICE_MODE_MAX_MB    = 1,
+    VIDEO_MPEG_VIDEO_MULTI_SICE_MODE_MAX_BYTES = 2,
+};
+
+
+/*  Camera class control IDs */
+
+#define VIDEO_CID_CAMERA_CLASS_BASE  (VIDEO_CTRL_CLASS_CAMERA | 0x900)
+#define VIDEO_CID_CAMERA_CLASS       (VIDEO_CTRL_CLASS_CAMERA | 1)
+
+#define VIDEO_CID_EXPOSURE_AUTO         (VIDEO_CID_CAMERA_CLASS_BASE+1)
+enum  video_exposure_auto_type {
+    VIDEO_EXPOSURE_AUTO = 0,
+    VIDEO_EXPOSURE_MANUAL = 1,
+    VIDEO_EXPOSURE_SHUTTER_PRIORITY = 2,
+    VIDEO_EXPOSURE_APERTURE_PRIORITY = 3
+};
+#define VIDEO_CID_EXPOSURE_ABSOLUTE     (VIDEO_CID_CAMERA_CLASS_BASE+2)
+#define VIDEO_CID_EXPOSURE_AUTO_PRIORITY      (VIDEO_CID_CAMERA_CLASS_BASE+3)
+
+#define VIDEO_CID_PAN_RELATIVE       (VIDEO_CID_CAMERA_CLASS_BASE+4)
+#define VIDEO_CID_TILT_RELATIVE         (VIDEO_CID_CAMERA_CLASS_BASE+5)
+#define VIDEO_CID_PAN_RESET       (VIDEO_CID_CAMERA_CLASS_BASE+6)
+#define VIDEO_CID_TILT_RESET         (VIDEO_CID_CAMERA_CLASS_BASE+7)
+
+#define VIDEO_CID_PAN_ABSOLUTE       (VIDEO_CID_CAMERA_CLASS_BASE+8)
+#define VIDEO_CID_TILT_ABSOLUTE         (VIDEO_CID_CAMERA_CLASS_BASE+9)
+
+#define VIDEO_CID_FOCUS_ABSOLUTE        (VIDEO_CID_CAMERA_CLASS_BASE+10)
+#define VIDEO_CID_FOCUS_RELATIVE        (VIDEO_CID_CAMERA_CLASS_BASE+11)
+#define VIDEO_CID_FOCUS_AUTO         (VIDEO_CID_CAMERA_CLASS_BASE+12)
+
+#define VIDEO_CID_ZOOM_ABSOLUTE         (VIDEO_CID_CAMERA_CLASS_BASE+13)
+#define VIDEO_CID_ZOOM_RELATIVE         (VIDEO_CID_CAMERA_CLASS_BASE+14)
+#define VIDEO_CID_ZOOM_CONTINUOUS    (VIDEO_CID_CAMERA_CLASS_BASE+15)
+
+#define VIDEO_CID_PRIVACY         (VIDEO_CID_CAMERA_CLASS_BASE+16)
+
+#define VIDEO_CID_IRIS_ABSOLUTE         (VIDEO_CID_CAMERA_CLASS_BASE+17)
+#define VIDEO_CID_IRIS_RELATIVE         (VIDEO_CID_CAMERA_CLASS_BASE+18)
+
+#define VIDEO_CID_AUTO_EXPOSURE_BIAS    (VIDEO_CID_CAMERA_CLASS_BASE+19)
+
+#define VIDEO_CID_AUTO_N_PRESET_WHITE_BALANCE (VIDEO_CID_CAMERA_CLASS_BASE+20)
+enum video_auto_n_preset_white_balance {
+    VIDEO_WHITE_BALANCE_MANUAL     = 0,
+    VIDEO_WHITE_BALANCE_AUTO       = 1,
+    VIDEO_WHITE_BALANCE_INCANDESCENT     = 2,
+    VIDEO_WHITE_BALANCE_FLUORESCENT      = 3,
+    VIDEO_WHITE_BALANCE_FLUORESCENT_H = 4,
+    VIDEO_WHITE_BALANCE_HORIZON    = 5,
+    VIDEO_WHITE_BALANCE_DAYLIGHT      = 6,
+    VIDEO_WHITE_BALANCE_FLASH      = 7,
+    VIDEO_WHITE_BALANCE_CLOUDY     = 8,
+    VIDEO_WHITE_BALANCE_SHADE      = 9,
+};
+
+#define VIDEO_CID_WIDE_DYNAMIC_RANGE    (VIDEO_CID_CAMERA_CLASS_BASE+21)
+#define VIDEO_CID_IMAGE_STABILIZATION      (VIDEO_CID_CAMERA_CLASS_BASE+22)
+
+#define VIDEO_CID_ISO_SENSITIVITY    (VIDEO_CID_CAMERA_CLASS_BASE+23)
+#define VIDEO_CID_ISO_SENSITIVITY_AUTO     (VIDEO_CID_CAMERA_CLASS_BASE+24)
+enum video_iso_sensitivity_auto_type {
+    VIDEO_ISO_SENSITIVITY_MANUAL      = 0,
+    VIDEO_ISO_SENSITIVITY_AUTO     = 1,
+};
+
+
+#define VIDEO_CID_3A_LOCK         (VIDEO_CID_CAMERA_CLASS_BASE+27)
+#define VIDEO_LOCK_EXPOSURE       (1 << 0)
+#define VIDEO_LOCK_WHITE_BALANCE        (1 << 1)
+#define VIDEO_LOCK_FOCUS          (1 << 2)
+
+#define VIDEO_CID_AUTO_FOCUS_START      (VIDEO_CID_CAMERA_CLASS_BASE+28)
+#define VIDEO_CID_AUTO_FOCUS_STOP    (VIDEO_CID_CAMERA_CLASS_BASE+29)
+#define VIDEO_CID_AUTO_FOCUS_STATUS     (VIDEO_CID_CAMERA_CLASS_BASE+30)
+#define VIDEO_AUTO_FOCUS_STATUS_IDLE    (0 << 0)
+#define VIDEO_AUTO_FOCUS_STATUS_BUSY    (1 << 0)
+#define VIDEO_AUTO_FOCUS_STATUS_REACHED    (1 << 1)
+#define VIDEO_AUTO_FOCUS_STATUS_FAILED     (1 << 2)
+
+
+#define VIDEO_CID_PAN_SPEED       (VIDEO_CID_CAMERA_CLASS_BASE+32)
+#define VIDEO_CID_TILT_SPEED         (VIDEO_CID_CAMERA_CLASS_BASE+33)
+
+
+#endif
+
+//------------------------------------------
+//colour 
+enum video_colorspace {
+    /* not ----
+     * Default colorspace, i.e. let the driver figure it out.
+     * Can only be used with video capture.
+     */
+    VIDEO_COLORSPACE_DEFAULT       = 0,
+
+    /* SMPTE 170M: used for broadcast NTSC/PAL SDTV */
+    VIDEO_COLORSPACE_SMPTE170M     = 1,
+
+    /* Obsolete pre-1998 SMPTE 240M HDTV standard, superseded by Rec 709 */
+    VIDEO_COLORSPACE_SMPTE240M     = 2,
+
+    /*
+     * NTSC 1953 colorspace. This only makes sense when dealing with
+     * really, really old NTSC recordings. Superseded by SMPTE 170M.
+     */
+    VIDEO_COLORSPACE_470_SYSTEM_M  = 5,
+
+    /*
+     * EBU Tech 3213 PAL/SECAM colorspace. This only makes sense when
+     * dealing with really old PAL/SECAM recordings. Superseded by
+     * SMPTE 170M.
+     */
+     VIDEO_COLORSPACE_470_SYSTEM_BG = 6,
+
+
+    /* For RGB colorspaces such as produces by most webcams. */
+    VIDEO_COLORSPACE_SRGB          = 8,
+
+
+
+};
+
+
+
+

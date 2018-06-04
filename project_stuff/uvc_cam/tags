@@ -1,0 +1,794 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DEV_NAME	uvc_driver.c	29;"	d	file:
+DRIVER_AUTHOR	ud.c	/^MODULE_AUTHOR(DRIVER_AUTHOR);$/;"	v
+DRIVER_AUTHOR	ud.c	30;"	d	file:
+DRIVER_AUTHOR	uvc_driver.c	/^MODULE_AUTHOR(DRIVER_AUTHOR);$/;"	v
+DRIVER_AUTHOR	uvc_driver.c	33;"	d	file:
+DRIVER_DESC	ud.c	/^MODULE_DESCRIPTION(DRIVER_DESC);$/;"	v
+DRIVER_DESC	ud.c	32;"	d	file:
+DRIVER_DESC	uvc_driver.c	/^MODULE_DESCRIPTION(DRIVER_DESC);$/;"	v
+DRIVER_DESC	uvc_driver.c	35;"	d	file:
+DRIVER_VERSION	ud.c	/^MODULE_VERSION(DRIVER_VERSION);$/;"	v
+DRIVER_VERSION	uvc_driver.c	/^MODULE_VERSION(DRIVER_VERSION);$/;"	v
+DRIVER_VERSION	uvcvideo.h	71;"	d
+USB_ENDPOINT_MAXP_MASK	uvc_video.c	27;"	d	file:
+USB_EP_MAXP_MULT	uvc_video.c	30;"	d	file:
+USB_EP_MAXP_MULT_MASK	uvc_video.c	29;"	d	file:
+USB_EP_MAXP_MULT_SHIFT	uvc_video.c	28;"	d	file:
+UVC_BUF_STATE_ACTIVE	uvcvideo.h	/^	UVC_BUF_STATE_ACTIVE	= 2,$/;"	e	enum:uvc_buffer_state
+UVC_BUF_STATE_DONE	uvcvideo.h	/^	UVC_BUF_STATE_DONE	= 4,$/;"	e	enum:uvc_buffer_state
+UVC_BUF_STATE_ERROR	uvcvideo.h	/^	UVC_BUF_STATE_ERROR	= 5,$/;"	e	enum:uvc_buffer_state
+UVC_BUF_STATE_IDLE	uvcvideo.h	/^	UVC_BUF_STATE_IDLE	= 0,$/;"	e	enum:uvc_buffer_state
+UVC_BUF_STATE_QUEUED	uvcvideo.h	/^	UVC_BUF_STATE_QUEUED	= 1,$/;"	e	enum:uvc_buffer_state
+UVC_BUF_STATE_READY	uvcvideo.h	/^	UVC_BUF_STATE_READY	= 3,$/;"	e	enum:uvc_buffer_state
+UVC_CTRL_CONTROL_TIMEOUT	uvcvideo.h	82;"	d
+UVC_CTRL_DATA_BACKUP	uvc_ctrl.c	28;"	d	file:
+UVC_CTRL_DATA_CURRENT	uvc_ctrl.c	27;"	d	file:
+UVC_CTRL_DATA_DEF	uvc_ctrl.c	32;"	d	file:
+UVC_CTRL_DATA_LAST	uvc_ctrl.c	33;"	d	file:
+UVC_CTRL_DATA_MAX	uvc_ctrl.c	30;"	d	file:
+UVC_CTRL_DATA_MIN	uvc_ctrl.c	29;"	d	file:
+UVC_CTRL_DATA_RES	uvc_ctrl.c	31;"	d	file:
+UVC_CTRL_STREAMING_TIMEOUT	uvcvideo.h	83;"	d
+UVC_DEBUGFS_BUF_SIZE	uvc_debugfs.c	25;"	d	file:
+UVC_ENTITY_FLAG_DEFAULT	uvcvideo.h	237;"	d
+UVC_ENTITY_IS_ITERM	uvcvideo.h	29;"	d
+UVC_ENTITY_IS_OTERM	uvcvideo.h	32;"	d
+UVC_ENTITY_IS_TERM	uvcvideo.h	28;"	d
+UVC_ENTITY_IS_UNIT	uvcvideo.h	27;"	d
+UVC_ENTITY_TYPE	uvcvideo.h	26;"	d
+UVC_FMT_FLAG_COMPRESSED	uvcvideo.h	103;"	d
+UVC_FMT_FLAG_STREAM	uvcvideo.h	104;"	d
+UVC_GUID_FORMAT_MJPEG	uvcvideo.h	59;"	d
+UVC_GUID_FORMAT_YUY2	uvcvideo.h	62;"	d
+UVC_GUID_UVC_CAMERA	uvcvideo.h	41;"	d
+UVC_GUID_UVC_MEDIA_TRANSPORT_INPUT	uvcvideo.h	48;"	d
+UVC_GUID_UVC_OUTPUT	uvcvideo.h	45;"	d
+UVC_GUID_UVC_PROCESSING	uvcvideo.h	51;"	d
+UVC_GUID_UVC_SELECTOR	uvcvideo.h	55;"	d
+UVC_HANDLE_ACTIVE	uvcvideo.h	/^	UVC_HANDLE_ACTIVE	= 1,$/;"	e	enum:uvc_handle_state
+UVC_HANDLE_PASSIVE	uvcvideo.h	/^	UVC_HANDLE_PASSIVE	= 0,$/;"	e	enum:uvc_handle_state
+UVC_MAX_CONTROL_MAPPINGS	uvcvideo.h	86;"	d
+UVC_MAX_CONTROL_MENU_ENTRIES	uvcvideo.h	87;"	d
+UVC_MAX_PACKETS	uvcvideo.h	77;"	d
+UVC_MAX_STATUS_SIZE	uvcvideo.h	80;"	d
+UVC_QUEUE_DISCONNECTED	uvcvideo.h	402;"	d
+UVC_QUEUE_DROP_CORRUPTED	uvcvideo.h	403;"	d
+UVC_QUIRK_BUILTIN_ISIGHT	uvcvideo.h	93;"	d
+UVC_QUIRK_FIX_BANDWIDTH	uvcvideo.h	96;"	d
+UVC_QUIRK_FORCE_Y8	uvcvideo.h	100;"	d
+UVC_QUIRK_IGNORE_SELECTOR_UNIT	uvcvideo.h	95;"	d
+UVC_QUIRK_PROBE_DEF	uvcvideo.h	97;"	d
+UVC_QUIRK_PROBE_EXTRAFIELDS	uvcvideo.h	92;"	d
+UVC_QUIRK_PROBE_MINMAX	uvcvideo.h	91;"	d
+UVC_QUIRK_RESTORE_CTRLS_ON_INIT	uvcvideo.h	99;"	d
+UVC_QUIRK_RESTRICT_FRAME_RATE	uvcvideo.h	98;"	d
+UVC_QUIRK_STATUS_INTERVAL	uvcvideo.h	90;"	d
+UVC_QUIRK_STREAM_NO_FID	uvcvideo.h	94;"	d
+UVC_TERM_DIRECTION	uvcvideo.h	24;"	d
+UVC_TERM_INPUT	uvcvideo.h	22;"	d
+UVC_TERM_OUTPUT	uvcvideo.h	23;"	d
+UVC_TRACE_CALLS	uvcvideo.h	608;"	d
+UVC_TRACE_CAPTURE	uvcvideo.h	607;"	d
+UVC_TRACE_CLOCK	uvcvideo.h	614;"	d
+UVC_TRACE_CONTROL	uvcvideo.h	605;"	d
+UVC_TRACE_DESCR	uvcvideo.h	604;"	d
+UVC_TRACE_FORMAT	uvcvideo.h	606;"	d
+UVC_TRACE_FRAME	uvcvideo.h	609;"	d
+UVC_TRACE_PROBE	uvcvideo.h	603;"	d
+UVC_TRACE_STATS	uvcvideo.h	613;"	d
+UVC_TRACE_STATUS	uvcvideo.h	611;"	d
+UVC_TRACE_SUSPEND	uvcvideo.h	610;"	d
+UVC_TRACE_VIDEO	uvcvideo.h	612;"	d
+UVC_URBS	uvcvideo.h	74;"	d
+UVC_WARN_MINMAX	uvcvideo.h	616;"	d
+UVC_WARN_PROBE_DEF	uvcvideo.h	617;"	d
+UVC_WARN_XU_GET_RES	uvcvideo.h	618;"	d
+VFL_DIR_M2M	video_cntrl.h	8;"	d
+VFL_DIR_RX	video_cntrl.h	6;"	d
+VFL_DIR_TX	video_cntrl.h	7;"	d
+VIDEO_AUTO_FOCUS_STATUS_BUSY	video_cntrl.h	333;"	d
+VIDEO_AUTO_FOCUS_STATUS_FAILED	video_cntrl.h	335;"	d
+VIDEO_AUTO_FOCUS_STATUS_IDLE	video_cntrl.h	332;"	d
+VIDEO_AUTO_FOCUS_STATUS_REACHED	video_cntrl.h	334;"	d
+VIDEO_BUF_FLAG_BFRAME	video_cntrl.h	23;"	d
+VIDEO_BUF_FLAG_DONE	video_cntrl.h	17;"	d
+VIDEO_BUF_FLAG_ERROR	video_cntrl.h	25;"	d
+VIDEO_BUF_FLAG_KEYFRAME	video_cntrl.h	19;"	d
+VIDEO_BUF_FLAG_LAST	video_cntrl.h	43;"	d
+VIDEO_BUF_FLAG_MAPPED	video_cntrl.h	13;"	d
+VIDEO_BUF_FLAG_NO_CACHE_CLEAN	video_cntrl.h	32;"	d
+VIDEO_BUF_FLAG_NO_CACHE_INVALIDATE	video_cntrl.h	31;"	d
+VIDEO_BUF_FLAG_PFRAME	video_cntrl.h	21;"	d
+VIDEO_BUF_FLAG_PREPARED	video_cntrl.h	29;"	d
+VIDEO_BUF_FLAG_QUEUED	video_cntrl.h	15;"	d
+VIDEO_BUF_FLAG_TIMECODE	video_cntrl.h	27;"	d
+VIDEO_BUF_FLAG_TIMESTAMP_COPY	video_cntrl.h	37;"	d
+VIDEO_BUF_FLAG_TIMESTAMP_MASK	video_cntrl.h	34;"	d
+VIDEO_BUF_FLAG_TIMESTAMP_MONOTONIC	video_cntrl.h	36;"	d
+VIDEO_BUF_FLAG_TIMESTAMP_UNKNOWN	video_cntrl.h	35;"	d
+VIDEO_BUF_FLAG_TSTAMP_SRC_EOF	video_cntrl.h	40;"	d
+VIDEO_BUF_FLAG_TSTAMP_SRC_MASK	video_cntrl.h	39;"	d
+VIDEO_BUF_FLAG_TSTAMP_SRC_SOE	video_cntrl.h	41;"	d
+VIDEO_BUF_TYPE_PRIVATE	uvcvideo.h	/^    VIDEO_BUF_TYPE_PRIVATE              = 0x80,$/;"	e	enum:video_buf_type
+VIDEO_BUF_TYPE_SDR_CAPTURE	uvcvideo.h	/^    VIDEO_BUF_TYPE_SDR_CAPTURE          = 11,$/;"	e	enum:video_buf_type
+VIDEO_BUF_TYPE_SDR_OUTPUT	uvcvideo.h	/^    VIDEO_BUF_TYPE_SDR_OUTPUT           = 12,$/;"	e	enum:video_buf_type
+VIDEO_BUF_TYPE_SLICED_VBI_CAPTURE	uvcvideo.h	/^    VIDEO_BUF_TYPE_SLICED_VBI_CAPTURE   = 6,$/;"	e	enum:video_buf_type
+VIDEO_BUF_TYPE_SLICED_VBI_OUTPUT	uvcvideo.h	/^    VIDEO_BUF_TYPE_SLICED_VBI_OUTPUT    = 7,$/;"	e	enum:video_buf_type
+VIDEO_BUF_TYPE_VBI_CAPTURE	uvcvideo.h	/^    VIDEO_BUF_TYPE_VBI_CAPTURE          = 4,$/;"	e	enum:video_buf_type
+VIDEO_BUF_TYPE_VBI_OUTPUT	uvcvideo.h	/^    VIDEO_BUF_TYPE_VBI_OUTPUT           = 5,$/;"	e	enum:video_buf_type
+VIDEO_BUF_TYPE_VIDEO_CAPTURE	uvcvideo.h	/^    VIDEO_BUF_TYPE_VIDEO_CAPTURE        = 1,$/;"	e	enum:video_buf_type
+VIDEO_BUF_TYPE_VIDEO_CAPTURE_MPLANE	uvcvideo.h	/^    VIDEO_BUF_TYPE_VIDEO_CAPTURE_MPLANE = 9,$/;"	e	enum:video_buf_type
+VIDEO_BUF_TYPE_VIDEO_OUTPUT	uvcvideo.h	/^    VIDEO_BUF_TYPE_VIDEO_OUTPUT         = 2,$/;"	e	enum:video_buf_type
+VIDEO_BUF_TYPE_VIDEO_OUTPUT_MPLANE	uvcvideo.h	/^    VIDEO_BUF_TYPE_VIDEO_OUTPUT_MPLANE  = 10,$/;"	e	enum:video_buf_type
+VIDEO_BUF_TYPE_VIDEO_OUTPUT_OVERLAY	uvcvideo.h	/^    VIDEO_BUF_TYPE_VIDEO_OUTPUT_OVERLAY = 8,$/;"	e	enum:video_buf_type
+VIDEO_BUF_TYPE_VIDEO_OVERLAY	uvcvideo.h	/^    VIDEO_BUF_TYPE_VIDEO_OVERLAY        = 3,$/;"	e	enum:video_buf_type
+VIDEO_CAP_HW_FREQ_SEEK	video_cntrl.h	157;"	d
+VIDEO_CAP_RDS_CAPTURE	video_cntrl.h	155;"	d
+VIDEO_CAP_RDS_OUTPUT	video_cntrl.h	158;"	d
+VIDEO_CAP_SLICED_VBI_CAPTURE	video_cntrl.h	153;"	d
+VIDEO_CAP_SLICED_VBI_OUTPUT	video_cntrl.h	154;"	d
+VIDEO_CAP_VBI_CAPTURE	video_cntrl.h	151;"	d
+VIDEO_CAP_VBI_OUTPUT	video_cntrl.h	152;"	d
+VIDEO_CAP_VIDEO_CAPTURE	video_cntrl.h	148;"	d
+VIDEO_CAP_VIDEO_OUTPUT	video_cntrl.h	149;"	d
+VIDEO_CAP_VIDEO_OUTPUT_OVERLAY	video_cntrl.h	156;"	d
+VIDEO_CAP_VIDEO_OVERLAY	video_cntrl.h	150;"	d
+VIDEO_CID_3A_LOCK	video_cntrl.h	324;"	d
+VIDEO_CID_ALPHA_COMPONENT	video_cntrl.h	140;"	d
+VIDEO_CID_AUDIO_BALANCE	video_cntrl.h	76;"	d
+VIDEO_CID_AUDIO_BASS	video_cntrl.h	77;"	d
+VIDEO_CID_AUDIO_LOUDNESS	video_cntrl.h	80;"	d
+VIDEO_CID_AUDIO_MUTE	video_cntrl.h	79;"	d
+VIDEO_CID_AUDIO_TREBLE	video_cntrl.h	78;"	d
+VIDEO_CID_AUDIO_VOLUME	video_cntrl.h	75;"	d
+VIDEO_CID_AUTOBRIGHTNESS	video_cntrl.h	126;"	d
+VIDEO_CID_AUTOGAIN	video_cntrl.h	89;"	d
+VIDEO_CID_AUTO_EXPOSURE_BIAS	video_cntrl.h	297;"	d
+VIDEO_CID_AUTO_FOCUS_START	video_cntrl.h	329;"	d
+VIDEO_CID_AUTO_FOCUS_STATUS	video_cntrl.h	331;"	d
+VIDEO_CID_AUTO_FOCUS_STOP	video_cntrl.h	330;"	d
+VIDEO_CID_AUTO_N_PRESET_WHITE_BALANCE	video_cntrl.h	299;"	d
+VIDEO_CID_AUTO_WHITE_BALANCE	video_cntrl.h	82;"	d
+VIDEO_CID_BACKLIGHT_COMPENSATION	video_cntrl.h	104;"	d
+VIDEO_CID_BAND_STOP_FILTER	video_cntrl.h	127;"	d
+VIDEO_CID_BASE	video_cntrl.h	68;"	d
+VIDEO_CID_BG_COLOR	video_cntrl.h	130;"	d
+VIDEO_CID_BLACK_LEVEL	video_cntrl.h	81;"	d
+VIDEO_CID_BLUE_BALANCE	video_cntrl.h	85;"	d
+VIDEO_CID_BRIGHTNESS	video_cntrl.h	71;"	d
+VIDEO_CID_CAMERA_CLASS	video_cntrl.h	264;"	d
+VIDEO_CID_CAMERA_CLASS_BASE	video_cntrl.h	263;"	d
+VIDEO_CID_CHROMA_AGC	video_cntrl.h	105;"	d
+VIDEO_CID_CHROMA_GAIN	video_cntrl.h	132;"	d
+VIDEO_CID_COLORFX	video_cntrl.h	107;"	d
+VIDEO_CID_COLORFX_CBCR	video_cntrl.h	141;"	d
+VIDEO_CID_COLOR_KILLER	video_cntrl.h	106;"	d
+VIDEO_CID_CONTRAST	video_cntrl.h	72;"	d
+VIDEO_CID_DO_WHITE_BALANCE	video_cntrl.h	83;"	d
+VIDEO_CID_EXPOSURE	video_cntrl.h	88;"	d
+VIDEO_CID_EXPOSURE_ABSOLUTE	video_cntrl.h	273;"	d
+VIDEO_CID_EXPOSURE_AUTO	video_cntrl.h	266;"	d
+VIDEO_CID_EXPOSURE_AUTO_PRIORITY	video_cntrl.h	274;"	d
+VIDEO_CID_FOCUS_ABSOLUTE	video_cntrl.h	284;"	d
+VIDEO_CID_FOCUS_AUTO	video_cntrl.h	286;"	d
+VIDEO_CID_FOCUS_RELATIVE	video_cntrl.h	285;"	d
+VIDEO_CID_GAIN	video_cntrl.h	90;"	d
+VIDEO_CID_GAMMA	video_cntrl.h	86;"	d
+VIDEO_CID_HFLIP	video_cntrl.h	91;"	d
+VIDEO_CID_HUE	video_cntrl.h	74;"	d
+VIDEO_CID_HUE_AUTO	video_cntrl.h	101;"	d
+VIDEO_CID_ILLUMINATORS_1	video_cntrl.h	134;"	d
+VIDEO_CID_ILLUMINATORS_2	video_cntrl.h	135;"	d
+VIDEO_CID_IMAGE_STABILIZATION	video_cntrl.h	314;"	d
+VIDEO_CID_IRIS_ABSOLUTE	video_cntrl.h	294;"	d
+VIDEO_CID_IRIS_RELATIVE	video_cntrl.h	295;"	d
+VIDEO_CID_ISO_SENSITIVITY	video_cntrl.h	316;"	d
+VIDEO_CID_ISO_SENSITIVITY_AUTO	video_cntrl.h	317;"	d
+VIDEO_CID_MIN_BUFFERS_FOR_CAPTURE	video_cntrl.h	137;"	d
+VIDEO_CID_MIN_BUFFERS_FOR_OUTPUT	video_cntrl.h	138;"	d
+VIDEO_CID_MPEG_AUDIO_DEC_MULTILINGUAL_PLAYBACK	video_cntrl.h	209;"	d
+VIDEO_CID_MPEG_BASE	video_cntrl.h	184;"	d
+VIDEO_CID_MPEG_CLASS	video_cntrl.h	185;"	d
+VIDEO_CID_MPEG_STREAM_PES_ID_AUDIO	video_cntrl.h	201;"	d
+VIDEO_CID_MPEG_STREAM_PES_ID_VIDEO	video_cntrl.h	202;"	d
+VIDEO_CID_MPEG_STREAM_PID_AUDIO	video_cntrl.h	198;"	d
+VIDEO_CID_MPEG_STREAM_PID_PCR	video_cntrl.h	200;"	d
+VIDEO_CID_MPEG_STREAM_PID_PMT	video_cntrl.h	197;"	d
+VIDEO_CID_MPEG_STREAM_PID_VIDEO	video_cntrl.h	199;"	d
+VIDEO_CID_MPEG_STREAM_TYPE	video_cntrl.h	188;"	d
+VIDEO_CID_MPEG_STREAM_VBI_FMT	video_cntrl.h	203;"	d
+VIDEO_CID_MPEG_VIDEO_ASPECT	video_cntrl.h	218;"	d
+VIDEO_CID_MPEG_VIDEO_BITRATE	video_cntrl.h	234;"	d
+VIDEO_CID_MPEG_VIDEO_BITRATE_MODE	video_cntrl.h	229;"	d
+VIDEO_CID_MPEG_VIDEO_BITRATE_PEAK	video_cntrl.h	235;"	d
+VIDEO_CID_MPEG_VIDEO_B_FRAMES	video_cntrl.h	225;"	d
+VIDEO_CID_MPEG_VIDEO_CYCLIC_INTRA_REFRESH_MB	video_cntrl.h	241;"	d
+VIDEO_CID_MPEG_VIDEO_DECODER_MPEG4_DEBLOCK_FILTER	video_cntrl.h	240;"	d
+VIDEO_CID_MPEG_VIDEO_DECODER_SLICE_INTERFACE	video_cntrl.h	239;"	d
+VIDEO_CID_MPEG_VIDEO_ENCODING	video_cntrl.h	212;"	d
+VIDEO_CID_MPEG_VIDEO_FRAME_RC_ENABLE	video_cntrl.h	242;"	d
+VIDEO_CID_MPEG_VIDEO_GOP_CLOSURE	video_cntrl.h	227;"	d
+VIDEO_CID_MPEG_VIDEO_GOP_SIZE	video_cntrl.h	226;"	d
+VIDEO_CID_MPEG_VIDEO_HEADER_MODE	video_cntrl.h	243;"	d
+VIDEO_CID_MPEG_VIDEO_MAX_REF_PIC	video_cntrl.h	249;"	d
+VIDEO_CID_MPEG_VIDEO_MB_RC_ENABLE	video_cntrl.h	250;"	d
+VIDEO_CID_MPEG_VIDEO_MULTI_SLICE_MAX_BYTES	video_cntrl.h	251;"	d
+VIDEO_CID_MPEG_VIDEO_MULTI_SLICE_MAX_MB	video_cntrl.h	252;"	d
+VIDEO_CID_MPEG_VIDEO_MULTI_SLICE_MODE	video_cntrl.h	253;"	d
+VIDEO_CID_MPEG_VIDEO_MUTE	video_cntrl.h	237;"	d
+VIDEO_CID_MPEG_VIDEO_MUTE_YUV	video_cntrl.h	238;"	d
+VIDEO_CID_MPEG_VIDEO_PULLDOWN	video_cntrl.h	228;"	d
+VIDEO_CID_MPEG_VIDEO_TEMPORAL_DECIMATION	video_cntrl.h	236;"	d
+VIDEO_CID_PAN_ABSOLUTE	video_cntrl.h	281;"	d
+VIDEO_CID_PAN_RELATIVE	video_cntrl.h	276;"	d
+VIDEO_CID_PAN_RESET	video_cntrl.h	278;"	d
+VIDEO_CID_PAN_SPEED	video_cntrl.h	338;"	d
+VIDEO_CID_POWER_LINE_FREQUENCY	video_cntrl.h	94;"	d
+VIDEO_CID_POWER_LINE_FREQUENCY_50HZ	video_cntrl.h	/^    VIDEO_CID_POWER_LINE_FREQUENCY_50HZ  = 1,$/;"	e	enum:video_power_line_frequency
+VIDEO_CID_POWER_LINE_FREQUENCY_60HZ	video_cntrl.h	/^    VIDEO_CID_POWER_LINE_FREQUENCY_60HZ  = 2,$/;"	e	enum:video_power_line_frequency
+VIDEO_CID_POWER_LINE_FREQUENCY_AUTO	video_cntrl.h	/^    VIDEO_CID_POWER_LINE_FREQUENCY_AUTO  = 3,$/;"	e	enum:video_power_line_frequency
+VIDEO_CID_POWER_LINE_FREQUENCY_DISABLED	video_cntrl.h	/^    VIDEO_CID_POWER_LINE_FREQUENCY_DISABLED = 0,$/;"	e	enum:video_power_line_frequency
+VIDEO_CID_PRIVACY	video_cntrl.h	292;"	d
+VIDEO_CID_RED_BALANCE	video_cntrl.h	84;"	d
+VIDEO_CID_ROTATE	video_cntrl.h	129;"	d
+VIDEO_CID_SATURATION	video_cntrl.h	73;"	d
+VIDEO_CID_SHARPNESS	video_cntrl.h	103;"	d
+VIDEO_CID_TILT_ABSOLUTE	video_cntrl.h	282;"	d
+VIDEO_CID_TILT_RELATIVE	video_cntrl.h	277;"	d
+VIDEO_CID_TILT_RESET	video_cntrl.h	279;"	d
+VIDEO_CID_TILT_SPEED	video_cntrl.h	339;"	d
+VIDEO_CID_USER_BASE	video_cntrl.h	69;"	d
+VIDEO_CID_USER_CLASS	video_cntrl.h	70;"	d
+VIDEO_CID_VFLIP	video_cntrl.h	92;"	d
+VIDEO_CID_WHITENESS	video_cntrl.h	87;"	d
+VIDEO_CID_WHITE_BALANCE_TEMPERATURE	video_cntrl.h	102;"	d
+VIDEO_CID_WIDE_DYNAMIC_RANGE	video_cntrl.h	313;"	d
+VIDEO_CID_ZOOM_ABSOLUTE	video_cntrl.h	288;"	d
+VIDEO_CID_ZOOM_CONTINUOUS	video_cntrl.h	290;"	d
+VIDEO_CID_ZOOM_RELATIVE	video_cntrl.h	289;"	d
+VIDEO_COLORFX_ANTIQUE	video_cntrl.h	/^    VIDEO_COLORFX_ANTIQUE       = 14,$/;"	e	enum:video_colorfx
+VIDEO_COLORFX_AQUA	video_cntrl.h	/^    VIDEO_COLORFX_AQUA       = 10,$/;"	e	enum:video_colorfx
+VIDEO_COLORFX_ART_FREEZE	video_cntrl.h	/^    VIDEO_COLORFX_ART_FREEZE       = 11,$/;"	e	enum:video_colorfx
+VIDEO_COLORFX_BW	video_cntrl.h	/^    VIDEO_COLORFX_BW            = 1,$/;"	e	enum:video_colorfx
+VIDEO_COLORFX_EMBOSS	video_cntrl.h	/^    VIDEO_COLORFX_EMBOSS        = 4,$/;"	e	enum:video_colorfx
+VIDEO_COLORFX_GRASS_GREEN	video_cntrl.h	/^    VIDEO_COLORFX_GRASS_GREEN      = 7,$/;"	e	enum:video_colorfx
+VIDEO_COLORFX_NEGATIVE	video_cntrl.h	/^    VIDEO_COLORFX_NEGATIVE         = 3,$/;"	e	enum:video_colorfx
+VIDEO_COLORFX_NONE	video_cntrl.h	/^    VIDEO_COLORFX_NONE       = 0,$/;"	e	enum:video_colorfx
+VIDEO_COLORFX_SEPIA	video_cntrl.h	/^    VIDEO_COLORFX_SEPIA         = 2,$/;"	e	enum:video_colorfx
+VIDEO_COLORFX_SET_CBCR	video_cntrl.h	/^    VIDEO_COLORFX_SET_CBCR         = 15,$/;"	e	enum:video_colorfx
+VIDEO_COLORFX_SILHOUETTE	video_cntrl.h	/^    VIDEO_COLORFX_SILHOUETTE       = 12,$/;"	e	enum:video_colorfx
+VIDEO_COLORFX_SKETCH	video_cntrl.h	/^    VIDEO_COLORFX_SKETCH        = 5,$/;"	e	enum:video_colorfx
+VIDEO_COLORFX_SKIN_WHITEN	video_cntrl.h	/^    VIDEO_COLORFX_SKIN_WHITEN      = 8,$/;"	e	enum:video_colorfx
+VIDEO_COLORFX_SKY_BLUE	video_cntrl.h	/^    VIDEO_COLORFX_SKY_BLUE         = 6,$/;"	e	enum:video_colorfx
+VIDEO_COLORFX_SOLARIZATION	video_cntrl.h	/^    VIDEO_COLORFX_SOLARIZATION     = 13,$/;"	e	enum:video_colorfx
+VIDEO_COLORFX_VIVID	video_cntrl.h	/^    VIDEO_COLORFX_VIVID         = 9,$/;"	e	enum:video_colorfx
+VIDEO_COLORSPACE_470_SYSTEM_BG	video_cntrl.h	/^     VIDEO_COLORSPACE_470_SYSTEM_BG = 6,$/;"	e	enum:video_colorspace
+VIDEO_COLORSPACE_470_SYSTEM_M	video_cntrl.h	/^    VIDEO_COLORSPACE_470_SYSTEM_M  = 5,$/;"	e	enum:video_colorspace
+VIDEO_COLORSPACE_DEFAULT	video_cntrl.h	/^    VIDEO_COLORSPACE_DEFAULT       = 0,$/;"	e	enum:video_colorspace
+VIDEO_COLORSPACE_SMPTE170M	video_cntrl.h	/^    VIDEO_COLORSPACE_SMPTE170M     = 1,$/;"	e	enum:video_colorspace
+VIDEO_COLORSPACE_SMPTE240M	video_cntrl.h	/^    VIDEO_COLORSPACE_SMPTE240M     = 2,$/;"	e	enum:video_colorspace
+VIDEO_COLORSPACE_SRGB	video_cntrl.h	/^    VIDEO_COLORSPACE_SRGB          = 8,$/;"	e	enum:video_colorspace
+VIDEO_CTRL_CLASS_CAMERA	video_cntrl.h	55;"	d
+VIDEO_CTRL_CLASS_DETECT	video_cntrl.h	64;"	d
+VIDEO_CTRL_CLASS_DV	video_cntrl.h	61;"	d
+VIDEO_CTRL_CLASS_FLASH	video_cntrl.h	57;"	d
+VIDEO_CTRL_CLASS_FM_RX	video_cntrl.h	62;"	d
+VIDEO_CTRL_CLASS_FM_TX	video_cntrl.h	56;"	d
+VIDEO_CTRL_CLASS_IMAGE_PROC	video_cntrl.h	60;"	d
+VIDEO_CTRL_CLASS_IMAGE_SOURCE	video_cntrl.h	59;"	d
+VIDEO_CTRL_CLASS_JPEG	video_cntrl.h	58;"	d
+VIDEO_CTRL_CLASS_MPEG	video_cntrl.h	54;"	d
+VIDEO_CTRL_CLASS_RF_TUNER	video_cntrl.h	63;"	d
+VIDEO_CTRL_CLASS_USER	video_cntrl.h	53;"	d
+VIDEO_CTRL_COMPOUND_TYPES	uvcvideo.h	/^    VIDEO_CTRL_COMPOUND_TYPES     = 0x0100,$/;"	e	enum:video_ctrl_type
+VIDEO_CTRL_TYPE_BITMASK	uvcvideo.h	/^    VIDEO_CTRL_TYPE_BITMASK       = 8,$/;"	e	enum:video_ctrl_type
+VIDEO_CTRL_TYPE_BOOLEAN	uvcvideo.h	/^    VIDEO_CTRL_TYPE_BOOLEAN       = 2,$/;"	e	enum:video_ctrl_type
+VIDEO_CTRL_TYPE_BUTTON	uvcvideo.h	/^    VIDEO_CTRL_TYPE_BUTTON        = 4,$/;"	e	enum:video_ctrl_type
+VIDEO_CTRL_TYPE_CTRL_CLASS	uvcvideo.h	/^    VIDEO_CTRL_TYPE_CTRL_CLASS    = 6,$/;"	e	enum:video_ctrl_type
+VIDEO_CTRL_TYPE_INTEGER	uvcvideo.h	/^    VIDEO_CTRL_TYPE_INTEGER       = 1,$/;"	e	enum:video_ctrl_type
+VIDEO_CTRL_TYPE_INTEGER64	uvcvideo.h	/^    VIDEO_CTRL_TYPE_INTEGER64     = 5,$/;"	e	enum:video_ctrl_type
+VIDEO_CTRL_TYPE_INTEGER_MENU	uvcvideo.h	/^    VIDEO_CTRL_TYPE_INTEGER_MENU  = 9,$/;"	e	enum:video_ctrl_type
+VIDEO_CTRL_TYPE_MENU	uvcvideo.h	/^    VIDEO_CTRL_TYPE_MENU       = 3,$/;"	e	enum:video_ctrl_type
+VIDEO_CTRL_TYPE_STRING	uvcvideo.h	/^    VIDEO_CTRL_TYPE_STRING        = 7,$/;"	e	enum:video_ctrl_type
+VIDEO_CTRL_TYPE_U16	uvcvideo.h	/^    VIDEO_CTRL_TYPE_U16        = 0x0101,$/;"	e	enum:video_ctrl_type
+VIDEO_CTRL_TYPE_U32	uvcvideo.h	/^    VIDEO_CTRL_TYPE_U32        = 0x0102,$/;"	e	enum:video_ctrl_type
+VIDEO_CTRL_TYPE_U8	uvcvideo.h	/^    VIDEO_CTRL_TYPE_U8      = 0x0100,$/;"	e	enum:video_ctrl_type
+VIDEO_EXPOSURE_APERTURE_PRIORITY	video_cntrl.h	/^    VIDEO_EXPOSURE_APERTURE_PRIORITY = 3$/;"	e	enum:video_exposure_auto_type
+VIDEO_EXPOSURE_AUTO	video_cntrl.h	/^    VIDEO_EXPOSURE_AUTO = 0,$/;"	e	enum:video_exposure_auto_type
+VIDEO_EXPOSURE_MANUAL	video_cntrl.h	/^    VIDEO_EXPOSURE_MANUAL = 1,$/;"	e	enum:video_exposure_auto_type
+VIDEO_EXPOSURE_SHUTTER_PRIORITY	video_cntrl.h	/^    VIDEO_EXPOSURE_SHUTTER_PRIORITY = 2,$/;"	e	enum:video_exposure_auto_type
+VIDEO_ISO_SENSITIVITY_AUTO	video_cntrl.h	/^    VIDEO_ISO_SENSITIVITY_AUTO     = 1,$/;"	e	enum:video_iso_sensitivity_auto_type
+VIDEO_ISO_SENSITIVITY_MANUAL	video_cntrl.h	/^    VIDEO_ISO_SENSITIVITY_MANUAL      = 0,$/;"	e	enum:video_iso_sensitivity_auto_type
+VIDEO_LOCK_EXPOSURE	video_cntrl.h	325;"	d
+VIDEO_LOCK_FOCUS	video_cntrl.h	327;"	d
+VIDEO_LOCK_WHITE_BALANCE	video_cntrl.h	326;"	d
+VIDEO_MPEG_STREAM_TYPE_MPEG1_SS	video_cntrl.h	/^    VIDEO_MPEG_STREAM_TYPE_MPEG1_SS   = 2, \/* MPEG-1 system stream *\/$/;"	e	enum:video_mpeg_stream_type
+VIDEO_MPEG_STREAM_TYPE_MPEG1_VCD	video_cntrl.h	/^    VIDEO_MPEG_STREAM_TYPE_MPEG1_VCD  = 4, \/* MPEG-1 VCD-compatible stream *\/$/;"	e	enum:video_mpeg_stream_type
+VIDEO_MPEG_STREAM_TYPE_MPEG2_DVD	video_cntrl.h	/^    VIDEO_MPEG_STREAM_TYPE_MPEG2_DVD  = 3, \/* MPEG-2 DVD-compatible stream *\/$/;"	e	enum:video_mpeg_stream_type
+VIDEO_MPEG_STREAM_TYPE_MPEG2_PS	video_cntrl.h	/^    VIDEO_MPEG_STREAM_TYPE_MPEG2_PS   = 0, \/* MPEG-2 program stream *\/$/;"	e	enum:video_mpeg_stream_type
+VIDEO_MPEG_STREAM_TYPE_MPEG2_SVCD	video_cntrl.h	/^    VIDEO_MPEG_STREAM_TYPE_MPEG2_SVCD = 5, \/* MPEG-2 SVCD-compatible stream *\/$/;"	e	enum:video_mpeg_stream_type
+VIDEO_MPEG_STREAM_TYPE_MPEG2_TS	video_cntrl.h	/^    VIDEO_MPEG_STREAM_TYPE_MPEG2_TS   = 1, \/* MPEG-2 transport stream *\/$/;"	e	enum:video_mpeg_stream_type
+VIDEO_MPEG_STREAM_VBI_FMT_IVTV	video_cntrl.h	/^    VIDEO_MPEG_STREAM_VBI_FMT_IVTV = 1,  \/* VBI in private packets, IVTV format *\/$/;"	e	enum:video_mpeg_stream_vbi_fmt
+VIDEO_MPEG_STREAM_VBI_FMT_NONE	video_cntrl.h	/^    VIDEO_MPEG_STREAM_VBI_FMT_NONE = 0,  \/* No VBI in the MPEG stream *\/$/;"	e	enum:video_mpeg_stream_vbi_fmt
+VIDEO_MPEG_VIDEO_ASPECT_16x9	video_cntrl.h	/^    VIDEO_MPEG_VIDEO_ASPECT_16x9    = 2,$/;"	e	enum:video_mpeg_video_aspect
+VIDEO_MPEG_VIDEO_ASPECT_1x1	video_cntrl.h	/^    VIDEO_MPEG_VIDEO_ASPECT_1x1     = 0,$/;"	e	enum:video_mpeg_video_aspect
+VIDEO_MPEG_VIDEO_ASPECT_221x100	video_cntrl.h	/^    VIDEO_MPEG_VIDEO_ASPECT_221x100 = 3,$/;"	e	enum:video_mpeg_video_aspect
+VIDEO_MPEG_VIDEO_ASPECT_4x3	video_cntrl.h	/^    VIDEO_MPEG_VIDEO_ASPECT_4x3     = 1,$/;"	e	enum:video_mpeg_video_aspect
+VIDEO_MPEG_VIDEO_BITRATE_MODE_CBR	video_cntrl.h	/^    VIDEO_MPEG_VIDEO_BITRATE_MODE_CBR = 1,$/;"	e	enum:video_mpeg_video_bitrate_mode
+VIDEO_MPEG_VIDEO_BITRATE_MODE_VBR	video_cntrl.h	/^    VIDEO_MPEG_VIDEO_BITRATE_MODE_VBR = 0,$/;"	e	enum:video_mpeg_video_bitrate_mode
+VIDEO_MPEG_VIDEO_ENCODING_MPEG_1	video_cntrl.h	/^    VIDEO_MPEG_VIDEO_ENCODING_MPEG_1     = 0,$/;"	e	enum:video_mpeg_video_encoding
+VIDEO_MPEG_VIDEO_ENCODING_MPEG_2	video_cntrl.h	/^    VIDEO_MPEG_VIDEO_ENCODING_MPEG_2     = 1,$/;"	e	enum:video_mpeg_video_encoding
+VIDEO_MPEG_VIDEO_ENCODING_MPEG_4_AVC	video_cntrl.h	/^    VIDEO_MPEG_VIDEO_ENCODING_MPEG_4_AVC = 2,$/;"	e	enum:video_mpeg_video_encoding
+VIDEO_MPEG_VIDEO_HEADER_MODE_JOINED_WITH_1ST_FRAME	video_cntrl.h	/^    VIDEO_MPEG_VIDEO_HEADER_MODE_JOINED_WITH_1ST_FRAME  = 1,$/;"	e	enum:video_mpeg_video_header_mode
+VIDEO_MPEG_VIDEO_HEADER_MODE_SEPARATE	video_cntrl.h	/^    VIDEO_MPEG_VIDEO_HEADER_MODE_SEPARATE         = 0,$/;"	e	enum:video_mpeg_video_header_mode
+VIDEO_MPEG_VIDEO_MULTI_SICE_MODE_MAX_BYTES	video_cntrl.h	/^    VIDEO_MPEG_VIDEO_MULTI_SICE_MODE_MAX_BYTES = 2,$/;"	e	enum:video_mpeg_video_multi_slice_mode
+VIDEO_MPEG_VIDEO_MULTI_SICE_MODE_MAX_MB	video_cntrl.h	/^    VIDEO_MPEG_VIDEO_MULTI_SICE_MODE_MAX_MB    = 1,$/;"	e	enum:video_mpeg_video_multi_slice_mode
+VIDEO_MPEG_VIDEO_MULTI_SLICE_MODE_SINGLE	video_cntrl.h	/^    VIDEO_MPEG_VIDEO_MULTI_SLICE_MODE_SINGLE      = 0,$/;"	e	enum:video_mpeg_video_multi_slice_mode
+VIDEO_PIX_FMT_MJPEG	uvcvideo.h	113;"	d
+VIDEO_PIX_FMT_YUYV	uvcvideo.h	111;"	d
+VIDEO_WHITE_BALANCE_AUTO	video_cntrl.h	/^    VIDEO_WHITE_BALANCE_AUTO       = 1,$/;"	e	enum:video_auto_n_preset_white_balance
+VIDEO_WHITE_BALANCE_CLOUDY	video_cntrl.h	/^    VIDEO_WHITE_BALANCE_CLOUDY     = 8,$/;"	e	enum:video_auto_n_preset_white_balance
+VIDEO_WHITE_BALANCE_DAYLIGHT	video_cntrl.h	/^    VIDEO_WHITE_BALANCE_DAYLIGHT      = 6,$/;"	e	enum:video_auto_n_preset_white_balance
+VIDEO_WHITE_BALANCE_FLASH	video_cntrl.h	/^    VIDEO_WHITE_BALANCE_FLASH      = 7,$/;"	e	enum:video_auto_n_preset_white_balance
+VIDEO_WHITE_BALANCE_FLUORESCENT	video_cntrl.h	/^    VIDEO_WHITE_BALANCE_FLUORESCENT      = 3,$/;"	e	enum:video_auto_n_preset_white_balance
+VIDEO_WHITE_BALANCE_FLUORESCENT_H	video_cntrl.h	/^    VIDEO_WHITE_BALANCE_FLUORESCENT_H = 4,$/;"	e	enum:video_auto_n_preset_white_balance
+VIDEO_WHITE_BALANCE_HORIZON	video_cntrl.h	/^    VIDEO_WHITE_BALANCE_HORIZON    = 5,$/;"	e	enum:video_auto_n_preset_white_balance
+VIDEO_WHITE_BALANCE_INCANDESCENT	video_cntrl.h	/^    VIDEO_WHITE_BALANCE_INCANDESCENT     = 2,$/;"	e	enum:video_auto_n_preset_white_balance
+VIDEO_WHITE_BALANCE_MANUAL	video_cntrl.h	/^    VIDEO_WHITE_BALANCE_MANUAL     = 0,$/;"	e	enum:video_auto_n_preset_white_balance
+VIDEO_WHITE_BALANCE_SHADE	video_cntrl.h	/^    VIDEO_WHITE_BALANCE_SHADE      = 9,$/;"	e	enum:video_auto_n_preset_white_balance
+_USB_VIDEO_H_	uvcvideo.h	3;"	d
+__LINUX_VIDEO_CONTROLS_H	video_cntrl.h	2;"	d
+__cached_gcc_-print-file-name_include	.cache.mk	/^__cached_gcc_-print-file-name_include := \/usr\/lib\/gcc\/x86_64-linux-gnu\/5\/include$/;"	m
+__uvc_ctrl_add_mapping	uvc_ctrl.c	/^static int __uvc_ctrl_add_mapping(struct uvc_device *dev,$/;"	f	file:
+__uvc_query_ctrl	uvc_video.c	/^static int __uvc_query_ctrl(struct uvc_device *dev, __u8 query, __u8 unit,$/;"	f	file:
+__uvc_resume	ud.c	/^static int __uvc_resume(struct usb_interface *intf, int reset)$/;"	f	file:
+active	uvcvideo.h	/^	atomic_t active;$/;"	m	struct:uvc_streaming
+bControlSize	uvcvideo.h	/^			__u8  bControlSize;$/;"	m	struct:uvc_entity::__anon1::__anon2
+bControlSize	uvcvideo.h	/^			__u8  bControlSize;$/;"	m	struct:uvc_entity::__anon1::__anon3
+bControlSize	uvcvideo.h	/^			__u8  bControlSize;$/;"	m	struct:uvc_entity::__anon1::__anon5
+bControlSize	uvcvideo.h	/^			__u8  bControlSize;$/;"	m	struct:uvc_entity::__anon1::__anon7
+bControlSize	uvcvideo.h	/^	__u8 bControlSize;$/;"	m	struct:uvc_streaming_header
+bEndpointAddress	uvcvideo.h	/^	__u8 bEndpointAddress;$/;"	m	struct:uvc_streaming_header
+bFrameIndex	uvcvideo.h	/^	__u8  bFrameIndex;$/;"	m	struct:uvc_frame
+bFrameIntervalType	uvcvideo.h	/^	__u8  bFrameIntervalType;$/;"	m	struct:uvc_frame
+bNrInPins	uvcvideo.h	/^	__u8 bNrInPins;$/;"	m	struct:uvc_entity
+bNumControls	uvcvideo.h	/^			__u8  bNumControls;$/;"	m	struct:uvc_entity::__anon1::__anon7
+bNumFormats	uvcvideo.h	/^	__u8 bNumFormats;$/;"	m	struct:uvc_streaming_header
+bStillCaptureMethod	uvcvideo.h	/^	__u8 bStillCaptureMethod;$/;"	m	struct:uvc_streaming_header
+bTerminalLink	uvcvideo.h	/^	__u8 bTerminalLink;$/;"	m	struct:uvc_streaming_header
+bTransportModeSize	uvcvideo.h	/^			__u8  bTransportModeSize;$/;"	m	struct:uvc_entity::__anon1::__anon3
+bTriggerSupport	uvcvideo.h	/^	__u8 bTriggerSupport;$/;"	m	struct:uvc_streaming_header
+bTriggerUsage	uvcvideo.h	/^	__u8 bTriggerUsage;$/;"	m	struct:uvc_streaming_header
+baSourceID	uvcvideo.h	/^	__u8 *baSourceID;$/;"	m	struct:uvc_entity
+bmCapabilities	uvcvideo.h	/^	__u8  bmCapabilities;$/;"	m	struct:uvc_frame
+bmControls	uvcvideo.h	/^			__u8  *bmControls;$/;"	m	struct:uvc_entity::__anon1::__anon2
+bmControls	uvcvideo.h	/^			__u8  *bmControls;$/;"	m	struct:uvc_entity::__anon1::__anon3
+bmControls	uvcvideo.h	/^			__u8  *bmControls;$/;"	m	struct:uvc_entity::__anon1::__anon5
+bmControls	uvcvideo.h	/^			__u8  *bmControls;$/;"	m	struct:uvc_entity::__anon1::__anon7
+bmControlsType	uvcvideo.h	/^			__u8  *bmControlsType;$/;"	m	struct:uvc_entity::__anon1::__anon7
+bmInfo	uvcvideo.h	/^	__u8 bmInfo;$/;"	m	struct:uvc_streaming_header
+bmTransportModes	uvcvideo.h	/^			__u8  *bmTransportModes;$/;"	m	struct:uvc_entity::__anon1::__anon3
+bmVideoStandards	uvcvideo.h	/^			__u8  bmVideoStandards;$/;"	m	struct:uvc_entity::__anon1::__anon5
+bmaControls	uvcvideo.h	/^	__u8 *bmaControls;$/;"	m	struct:uvc_streaming_header
+bpp	uvcvideo.h	/^	__u8 bpp;$/;"	m	struct:uvc_format
+buf_used	uvcvideo.h	/^	unsigned int buf_used;$/;"	m	struct:uvc_video_queue
+bulk	uvcvideo.h	/^	} bulk;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::__anon8
+bytesused	uvcvideo.h	/^	unsigned int bytesused;$/;"	m	struct:uvc_buffer
+cached	uvcvideo.h	/^	     cached:1,$/;"	m	struct:uvc_control
+camera	uvcvideo.h	/^		} camera;$/;"	m	union:uvc_entity::__anon1	typeref:struct:uvc_entity::__anon1::__anon2
+caps	uvcvideo.h	/^	u32 caps;				\/* VIDEO chain-wide caps *\/$/;"	m	struct:uvc_video_chain
+cdev	uvcvideo.h	/^    struct cdev *cdev;      \/\/ character device $/;"	m	struct:video_device	typeref:struct:video_device::cdev
+cdev	uvcvideo.h	/^struct cdev *cdev;$/;"	m	struct:usb_dev	typeref:struct:usb_dev::cdev
+chain	uvcvideo.h	/^	struct list_head chain;		\/* Entity as part of a video device$/;"	m	struct:uvc_entity	typeref:struct:uvc_entity::list_head
+chain	uvcvideo.h	/^	struct uvc_video_chain *chain;$/;"	m	struct:uvc_fh	typeref:struct:uvc_fh::uvc_video_chain
+chain	uvcvideo.h	/^	struct uvc_video_chain *chain;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_video_chain
+chains	uvcvideo.h	/^	struct list_head chains;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::list_head
+clock	uvcvideo.h	/^	} clock;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_clock
+clock_frequency	uvcvideo.h	/^	__u32 clock_frequency;$/;"	m	struct:uvc_device
+colorspace	uvcvideo.h	/^	__u8 colorspace;$/;"	m	struct:uvc_format
+controls	uvcvideo.h	/^	struct uvc_control *controls;$/;"	m	struct:uvc_entity	typeref:struct:uvc_entity::uvc_control
+count	uvc_debugfs.c	/^	size_t count;$/;"	m	struct:uvc_debugfs_buffer	file:
+count	uvcvideo.h	/^		unsigned int count;$/;"	m	struct:uvc_streaming::uvc_clock
+ctrl	uvcvideo.h	/^	struct uvc_streaming_control ctrl;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_streaming_control
+ctrl_mutex	uvcvideo.h	/^	struct mutex ctrl_mutex;		\/* Protects ctrl.info *\/$/;"	m	struct:uvc_video_chain	typeref:struct:uvc_video_chain::mutex
+cur_format	uvcvideo.h	/^	struct uvc_format *cur_format;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_format
+cur_frame	uvcvideo.h	/^	struct uvc_frame *cur_frame;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_frame
+data	uvc_debugfs.c	/^	char data[UVC_DEBUGFS_BUF_SIZE];$/;"	m	struct:uvc_debugfs_buffer	file:
+data_type	uvcvideo.h	/^	__u32 data_type;$/;"	m	struct:uvc_control_mapping
+debugfs_dir	uvcvideo.h	/^	struct dentry *debugfs_dir;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::dentry
+decode	uvcvideo.h	/^	void (*decode) (struct urb *urb, struct uvc_streaming *video,$/;"	m	struct:uvc_streaming
+def_format	uvcvideo.h	/^	struct uvc_format *def_format;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_format
+dev	uvc_driver.c	/^struct usb_dev *dev=NULL;$/;"	v	typeref:struct:usb_dev
+dev	uvcvideo.h	/^	struct uvc_device *dev;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_device
+dev	uvcvideo.h	/^	struct uvc_device *dev;$/;"	m	struct:uvc_video_chain	typeref:struct:uvc_video_chain::uvc_device
+dev	uvcvideo.h	/^    struct device dev;      \/\/ v4l device $/;"	m	struct:video_device	typeref:struct:video_device::device
+dev_debug	uvcvideo.h	/^    int dev_debug;$/;"	m	struct:video_device
+dev_no	uvcvideo.h	/^   dev_t dev_no;$/;"	m	struct:usb_dev
+dev_sof	uvcvideo.h	/^			u16 dev_sof;$/;"	m	struct:uvc_streaming::uvc_clock::uvc_clock_sample
+dev_stc	uvcvideo.h	/^			u32 dev_stc;$/;"	m	struct:uvc_streaming::uvc_clock::uvc_clock_sample
+device	uvcvideo.h	/^struct device *device;$/;"	m	struct:usb_dev	typeref:struct:usb_dev::device
+dirty	uvcvideo.h	/^	__u8 dirty:1,$/;"	m	struct:uvc_control
+driver	uvcvideo.h	/^	struct usb_driver driver;$/;"	m	struct:uvc_driver	typeref:struct:uvc_driver::usb_driver
+dwDefaultFrameInterval	uvcvideo.h	/^	__u32 dwDefaultFrameInterval;$/;"	m	struct:uvc_frame
+dwFrameInterval	uvcvideo.h	/^	__u32 *dwFrameInterval;$/;"	m	struct:uvc_frame
+dwMaxBitRate	uvcvideo.h	/^	__u32 dwMaxBitRate;$/;"	m	struct:uvc_frame
+dwMaxVideoFrameBufferSize	uvcvideo.h	/^	__u32 dwMaxVideoFrameBufferSize;$/;"	m	struct:uvc_frame
+dwMinBitRate	uvcvideo.h	/^	__u32 dwMinBitRate;$/;"	m	struct:uvc_frame
+entities	uvcvideo.h	/^	struct list_head entities;		\/* All entities *\/$/;"	m	struct:uvc_video_chain	typeref:struct:uvc_video_chain::list_head
+entities	uvcvideo.h	/^	struct list_head entities;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::list_head
+entity	uvcvideo.h	/^	__u8 entity[16];$/;"	m	struct:uvc_control_info
+entity	uvcvideo.h	/^	__u8 entity[16];$/;"	m	struct:uvc_control_mapping
+entity	uvcvideo.h	/^	struct uvc_entity *entity;$/;"	m	struct:uvc_control	typeref:struct:uvc_control::uvc_entity
+error	uvcvideo.h	/^	unsigned int error;$/;"	m	struct:uvc_buffer
+ev_subs	uvcvideo.h	/^	struct list_head ev_subs;$/;"	m	struct:uvc_control_mapping	typeref:struct:uvc_control_mapping::list_head
+extension	uvcvideo.h	/^		} extension;$/;"	m	union:uvc_entity::__anon1	typeref:struct:uvc_entity::__anon1::__anon7
+fcc	uvcvideo.h	/^	__u32 fcc;$/;"	m	struct:uvc_format
+fcc	uvcvideo.h	/^	__u32 fcc;$/;"	m	struct:uvc_format_desc
+first_data	uvcvideo.h	/^	unsigned int first_data;	\/* Index of the first non-empty packet *\/$/;"	m	struct:uvc_stats_frame
+flags	uvcvideo.h	/^	__u32 flags;$/;"	m	struct:uvc_control_info
+flags	uvcvideo.h	/^	__u32 flags;$/;"	m	struct:uvc_format
+flags	uvcvideo.h	/^	unsigned int flags;$/;"	m	struct:uvc_entity
+flags	uvcvideo.h	/^	unsigned int flags;$/;"	m	struct:uvc_video_queue
+flags	uvcvideo.h	/^    unsigned long flags;$/;"	m	struct:video_device
+fops	uvcvideo.h	/^    const struct file_operations *fops;$/;"	m	struct:video_device	typeref:struct:video_device::file_operations
+format	uvcvideo.h	/^	struct uvc_format *format;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_format
+frame	uvcvideo.h	/^		struct uvc_stats_frame frame;$/;"	m	struct:uvc_streaming::__anon9	typeref:struct:uvc_streaming::__anon9::uvc_stats_frame
+frame	uvcvideo.h	/^	struct uvc_frame *frame;$/;"	m	struct:uvc_format	typeref:struct:uvc_format::uvc_frame
+frozen	uvcvideo.h	/^	unsigned int frozen : 1;$/;"	m	struct:uvc_streaming
+gcc-goto.sh_gcc_-Wall_-Wundef_-Wstrict-prototypes_-Wno-trigraphs_-fno-strict-aliasing_-fno-common_-fshort-wchar_-Werror-implicit-function-declaration_-Wno-format-security_-std_gnu89_-fno-PIE_-mno-sse_-mno-mmx_-mno-sse2_-mno-3dnow_-mno-avx_-m64_-falign-jumps_1_-falign-loops_1_-mno-80387_-mno-fp-ret-in-387_-mpreferred-stack-boundary_3_-mskip-rax-setup_-mtune_generic_-mno-red-zone_-mcmodel_kernel_-funit-at-a-time_-DCONFIG_X86_X32_ABI_-DCONFIG_AS_CFI_1_-DCONFIG_AS_CFI_SIGNAL_FRAME_1_-DCONFIG_AS_CFI_SECTIONS_1_-DCONFIG_AS_FXSAVEQ_1_-DCONFIG_AS_SSSE3_1_-DCONFIG_AS_CRC32_1_-DCONFIG_AS_AVX_1_-DCONFIG_AS_AVX2_1_-DCONFIG_AS_AVX512_1_-DCONFIG_AS_SHA1_NI_1_-DCONFIG_AS_SHA256_NI_1_-pipe_-Wno-sign-compare_-fno-asynchronous-unwind-tables_-fno-delete-null-pointer-checks_____-O2__--param_allow-store-data-races_0	.cache.mk	/^__cached_\/bin\/bash_.\/scripts\/gcc-goto.sh_gcc_-Wall_-Wundef_-Wstrict-prototypes_-Wno-trigraphs_-fno-strict-aliasing_-fno-common_-fshort-wchar_-Werror-implicit-function-declaration_-Wno-format-security_-std_gnu89_-fno-PIE_-mno-sse_-mno-mmx_-mno-sse2_-mno-3dnow_-mno-avx_-m64_-falign-jumps_1_-falign-loops_1_-mno-80387_-mno-fp-ret-in-387_-mpreferred-stack-boundary_3_-mskip-rax-setup_-mtune_generic_-mno-red-zone_-mcmodel_kernel_-funit-at-a-time_-DCONFIG_X86_X32_ABI_-DCONFIG_AS_CFI_1_-DCONFIG_AS_CFI_SIGNAL_FRAME_1_-DCONFIG_AS_CFI_SECTIONS_1_-DCONFIG_AS_FXSAVEQ_1_-DCONFIG_AS_SSSE3_1_-DCONFIG_AS_CRC32_1_-DCONFIG_AS_AVX_1_-DCONFIG_AS_AVX2_1_-DCONFIG_AS_AVX512_1_-DCONFIG_AS_SHA1_NI_1_-DCONFIG_AS_SHA256_NI_1_-pipe_-Wno-sign-compare_-fno-asynchronous-unwind-tables_-fno-delete-null-pointer-checks_____-O2__--param_allow-store-data-races_0 := y$/;"	m
+gcc-version.sh_-p_gcc	.cache.mk	/^__cached_\/bin\/bash_.\/scripts\/gcc-version.sh_-p_gcc := 050400$/;"	m
+gcc-version.sh_gcc	.cache.mk	/^__cached_\/bin\/bash_.\/scripts\/gcc-version.sh_gcc := 0504$/;"	m
+get	uvcvideo.h	/^	__s32 (*get) (struct uvc_control_mapping *mapping, __u8 query,$/;"	m	struct:uvc_control_mapping
+guid	uvcvideo.h	/^	__u8 guid[16];$/;"	m	struct:uvc_format_desc
+guidExtensionCode	uvcvideo.h	/^			__u8  guidExtensionCode[16];$/;"	m	struct:uvc_entity::__anon1::__anon7
+has_early_pts	uvcvideo.h	/^	bool has_early_pts;		\/* Whether a PTS is present before the first non-empty packet *\/$/;"	m	struct:uvc_stats_frame
+has_initial_pts	uvcvideo.h	/^	bool has_initial_pts;		\/* Whether the first non-empty packet has a PTS *\/$/;"	m	struct:uvc_stats_frame
+head	uvcvideo.h	/^		unsigned int head;$/;"	m	struct:uvc_streaming::uvc_clock
+header	uvcvideo.h	/^		__u8 header[256];$/;"	m	struct:uvc_streaming::__anon8
+header	uvcvideo.h	/^	struct uvc_streaming_header header;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_streaming_header
+header_size	uvcvideo.h	/^		unsigned int header_size;$/;"	m	struct:uvc_streaming::__anon8
+host_sof	uvcvideo.h	/^			u16 host_sof;$/;"	m	struct:uvc_streaming::uvc_clock::uvc_clock_sample
+host_ts	uvcvideo.h	/^			struct timespec host_ts;$/;"	m	struct:uvc_streaming::uvc_clock::uvc_clock_sample	typeref:struct:uvc_streaming::uvc_clock::uvc_clock_sample::timespec
+id	uvcvideo.h	/^	__u32 id;$/;"	m	struct:uvc_control_mapping
+id	uvcvideo.h	/^	__u8 id;$/;"	m	struct:uvc_entity
+index	uvcvideo.h	/^	__u8 index;	\/* Bit index in bmControls *\/$/;"	m	struct:uvc_control_info
+index	uvcvideo.h	/^	__u8 index;	\/* Used to match the uvc_control entry with a$/;"	m	struct:uvc_control
+index	uvcvideo.h	/^	__u8 index;$/;"	m	struct:uvc_format
+index	uvcvideo.h	/^         int index;$/;"	m	struct:video_device
+info	uvcvideo.h	/^	struct uvc_control_info info;$/;"	m	struct:uvc_control	typeref:struct:uvc_control::uvc_control_info
+initialized	uvcvideo.h	/^	     initialized:1;$/;"	m	struct:uvc_control
+input	uvcvideo.h	/^	struct input_dev *input;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::input_dev
+input_phys	uvcvideo.h	/^	char input_phys[64];$/;"	m	struct:uvc_device
+int_ep	uvcvideo.h	/^	struct usb_host_endpoint *int_ep;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::usb_host_endpoint
+int_urb	uvcvideo.h	/^	struct urb *int_urb;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::urb
+intf	uvcvideo.h	/^	struct usb_interface *intf;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::usb_interface
+intf	uvcvideo.h	/^	struct usb_interface *intf;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::usb_interface
+intfnum	uvcvideo.h	/^	int intfnum;$/;"	m	struct:uvc_device
+intfnum	uvcvideo.h	/^	int intfnum;$/;"	m	struct:uvc_streaming
+irqlock	uvcvideo.h	/^	spinlock_t irqlock;			\/* Protects irqqueue *\/$/;"	m	struct:uvc_video_queue
+irqqueue	uvcvideo.h	/^	struct list_head irqqueue;$/;"	m	struct:uvc_video_queue	typeref:struct:uvc_video_queue::list_head
+isight_decode	uvc_isight.c	/^static int isight_decode(struct uvc_video_queue *queue, struct uvc_buffer *buf,$/;"	f	file:
+last_fid	uvcvideo.h	/^	__u8 last_fid;$/;"	m	struct:uvc_streaming
+last_pts_diff	uvcvideo.h	/^	unsigned int last_pts_diff;	\/* Index of the last PTS difference *\/$/;"	m	struct:uvc_stats_frame
+last_sof	uvcvideo.h	/^		u16 last_sof;$/;"	m	struct:uvc_streaming::uvc_clock
+length	uvcvideo.h	/^	unsigned int length;$/;"	m	struct:uvc_buffer
+list	uvcvideo.h	/^	struct list_head list;		\/* Entity as part of a UVC device. *\/$/;"	m	struct:uvc_entity	typeref:struct:uvc_entity::list_head
+list	uvcvideo.h	/^	struct list_head list;$/;"	m	struct:uvc_control_mapping	typeref:struct:uvc_control_mapping::list_head
+list	uvcvideo.h	/^	struct list_head list;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::list_head
+list	uvcvideo.h	/^	struct list_head list;$/;"	m	struct:uvc_video_chain	typeref:struct:uvc_video_chain::list_head
+loaded	uvcvideo.h	/^	     loaded:1,$/;"	m	struct:uvc_control
+lock	uvcvideo.h	/^		spinlock_t lock;$/;"	m	struct:uvc_streaming::uvc_clock
+lock	uvcvideo.h	/^	struct mutex lock;		\/* Protects users *\/$/;"	m	struct:uvc_device	typeref:struct:uvc_device::mutex
+mappings	uvcvideo.h	/^	struct list_head mappings;$/;"	m	struct:uvc_control_info	typeref:struct:uvc_control_info::list_head
+master_id	uvcvideo.h	/^	__u32 master_id;$/;"	m	struct:uvc_control_mapping
+master_manual	uvcvideo.h	/^	__s32 master_manual;$/;"	m	struct:uvc_control_mapping
+max_payload_size	uvcvideo.h	/^		__u32 max_payload_size;$/;"	m	struct:uvc_streaming::__anon8
+maxpsize	uvcvideo.h	/^	__u16 maxpsize;$/;"	m	struct:uvc_streaming
+media	uvcvideo.h	/^		} media;$/;"	m	union:uvc_entity::__anon1	typeref:struct:uvc_entity::__anon1::__anon3
+mem	uvcvideo.h	/^	void *mem;$/;"	m	struct:uvc_buffer
+menu_count	uvcvideo.h	/^	__u32 menu_count;$/;"	m	struct:uvc_control_mapping
+menu_info	uvcvideo.h	/^	struct uvc_menu_info *menu_info;$/;"	m	struct:uvc_control_mapping	typeref:struct:uvc_control_mapping::uvc_menu_info
+minor	uvcvideo.h	/^    int minor;$/;"	m	struct:video_device
+modified	uvcvideo.h	/^	     modified:1,$/;"	m	struct:uvc_control
+mutex	uvcvideo.h	/^	struct mutex mutex;			\/* Protects queue *\/$/;"	m	struct:uvc_video_queue	typeref:struct:uvc_video_queue::mutex
+mutex	uvcvideo.h	/^	struct mutex mutex;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::mutex
+my_fops	uvc_driver.c	/^struct fileoperations my_fops =$/;"	v	typeref:struct:fileoperations
+name	uvcvideo.h	/^	__u8 name[32];$/;"	m	struct:uvc_control_mapping
+name	uvcvideo.h	/^	char *name;$/;"	m	struct:uvc_format_desc
+name	uvcvideo.h	/^	char name[32];$/;"	m	struct:uvc_device
+name	uvcvideo.h	/^	char name[32];$/;"	m	struct:uvc_format
+name	uvcvideo.h	/^	char name[64];$/;"	m	struct:uvc_entity
+name	uvcvideo.h	/^    char name[32];$/;"	m	struct:video_device
+nb_empty	uvcvideo.h	/^	unsigned int nb_empty;		\/* Number of empty packets *\/$/;"	m	struct:uvc_stats_frame
+nb_errors	uvcvideo.h	/^	unsigned int nb_errors;		\/* Number of packets with the error bit set *\/$/;"	m	struct:uvc_stats_frame
+nb_invalid	uvcvideo.h	/^	unsigned int nb_invalid;	\/* Number of packets with an invalid header *\/$/;"	m	struct:uvc_stats_frame
+nb_packets	uvcvideo.h	/^	unsigned int nb_packets;	\/* Number of packets *\/$/;"	m	struct:uvc_stats_frame
+nb_pts	uvcvideo.h	/^	unsigned int nb_pts;		\/* Number of packets with a PTS timestamp *\/$/;"	m	struct:uvc_stats_frame
+nb_pts_diffs	uvcvideo.h	/^	unsigned int nb_pts_diffs;	\/* Number of PTS differences inside a frame *\/$/;"	m	struct:uvc_stats_frame
+nb_scr	uvcvideo.h	/^	unsigned int nb_scr;		\/* Number of packets with a SCR timestamp *\/$/;"	m	struct:uvc_stats_frame
+nb_scr_diffs	uvcvideo.h	/^	unsigned int nb_scr_diffs;	\/* Number of SCR.STC differences inside a frame *\/$/;"	m	struct:uvc_stats_frame
+ncontrols	uvcvideo.h	/^	unsigned int ncontrols;$/;"	m	struct:uvc_entity
+nformats	uvcvideo.h	/^	unsigned int nformats;$/;"	m	struct:uvc_streaming
+nframes	uvcvideo.h	/^	unsigned int nframes;$/;"	m	struct:uvc_format
+nmappings	uvcvideo.h	/^	atomic_t nmappings;$/;"	m	struct:uvc_device
+num	uvcvideo.h	/^    u16 num;$/;"	m	struct:video_device
+num_links	uvcvideo.h	/^	unsigned int num_links;$/;"	m	struct:uvc_entity
+num_pads	uvcvideo.h	/^	unsigned int num_pads;$/;"	m	struct:uvc_entity
+offset	uvcvideo.h	/^	__u8 offset;$/;"	m	struct:uvc_control_mapping
+output	uvcvideo.h	/^		} output;$/;"	m	union:uvc_entity::__anon1	typeref:struct:uvc_entity::__anon1::__anon4
+pads	uvcvideo.h	/^	struct media_pad *pads;$/;"	m	struct:uvc_entity	typeref:struct:uvc_entity::media_pad
+payload_size	uvcvideo.h	/^		__u32 payload_size;$/;"	m	struct:uvc_streaming::__anon8
+power_line_frequency_controls	uvc_ctrl.c	/^static struct uvc_menu_info power_line_frequency_controls[] = {$/;"	v	typeref:struct:uvc_menu_info	file:
+processing	uvcvideo.h	/^		} processing;$/;"	m	union:uvc_entity::__anon1	typeref:struct:uvc_entity::__anon1::__anon5
+processing	uvcvideo.h	/^	struct uvc_entity *processing;		\/* Processing unit *\/$/;"	m	struct:uvc_video_chain	typeref:struct:uvc_video_chain::uvc_entity
+pts	uvcvideo.h	/^	u32 pts;			\/* PTS of the last packet *\/$/;"	m	struct:uvc_stats_frame
+pts	uvcvideo.h	/^	u32 pts;$/;"	m	struct:uvc_buffer
+queue	uvcvideo.h	/^	struct list_head queue;$/;"	m	struct:uvc_buffer	typeref:struct:uvc_buffer::list_head
+queue	uvcvideo.h	/^	struct uvc_video_queue queue;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_video_queue
+quirks	uvcvideo.h	/^	__u32 quirks;$/;"	m	struct:uvc_device
+ref	uvcvideo.h	/^	struct kref ref;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::kref
+release	uvcvideo.h	/^    void (*release)(struct video_device *vdev);$/;"	m	struct:video_device
+samples	uvcvideo.h	/^		} *samples;$/;"	m	struct:uvc_streaming::uvc_clock	typeref:struct:uvc_streaming::uvc_clock::uvc_clock_sample
+scr_sof	uvcvideo.h	/^	u16 scr_sof;			\/* SCR.SOF of the last packet *\/$/;"	m	struct:uvc_stats_frame
+scr_stc	uvcvideo.h	/^	u32 scr_stc;			\/* SCR.STC of the last packet *\/$/;"	m	struct:uvc_stats_frame
+selector	uvcvideo.h	/^		} selector;$/;"	m	union:uvc_entity::__anon1	typeref:struct:uvc_entity::__anon1::__anon6
+selector	uvcvideo.h	/^	__u8 selector;$/;"	m	struct:uvc_control_info
+selector	uvcvideo.h	/^	__u8 selector;$/;"	m	struct:uvc_control_mapping
+selector	uvcvideo.h	/^	struct uvc_entity *selector;		\/* Selector unit *\/$/;"	m	struct:uvc_video_chain	typeref:struct:uvc_video_chain::uvc_entity
+sequence	uvcvideo.h	/^	__u32 sequence;$/;"	m	struct:uvc_streaming
+set	uvcvideo.h	/^	void (*set) (struct uvc_control_mapping *mapping, __s32 value,$/;"	m	struct:uvc_control_mapping
+size	uvcvideo.h	/^		unsigned int size;$/;"	m	struct:uvc_streaming::uvc_clock
+size	uvcvideo.h	/^	__u16 size;$/;"	m	struct:uvc_control_info
+size	uvcvideo.h	/^	__u8 size;$/;"	m	struct:uvc_control_mapping
+size	uvcvideo.h	/^	unsigned int size;		\/* Number of bytes captured *\/$/;"	m	struct:uvc_stats_frame
+skip_payload	uvcvideo.h	/^		int skip_payload;$/;"	m	struct:uvc_streaming::__anon8
+slave_ids	uvcvideo.h	/^	__u32 slave_ids[2];$/;"	m	struct:uvc_control_mapping
+sof_offset	uvcvideo.h	/^		u16 sof_offset;$/;"	m	struct:uvc_streaming::uvc_clock
+state	uvcvideo.h	/^	enum uvc_buffer_state state;$/;"	m	struct:uvc_buffer	typeref:enum:uvc_buffer::uvc_buffer_state
+state	uvcvideo.h	/^	enum uvc_handle_state state;$/;"	m	struct:uvc_fh	typeref:enum:uvc_fh::uvc_handle_state
+stats	uvcvideo.h	/^	} stats;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::__anon9
+status	uvcvideo.h	/^	__u8 *status;$/;"	m	struct:uvc_device
+stream	uvcvideo.h	/^	struct uvc_streaming *stream;$/;"	m	struct:uvc_fh	typeref:struct:uvc_fh::uvc_streaming
+streams	uvcvideo.h	/^	struct list_head streams;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::list_head
+type	uvcvideo.h	/^	__u16 type;$/;"	m	struct:uvc_entity
+type	uvcvideo.h	/^	__u8 type;$/;"	m	struct:uvc_format
+type	uvcvideo.h	/^	enum video_buf_type type;$/;"	m	struct:uvc_streaming	typeref:enum:uvc_streaming::video_buf_type
+udev	uvcvideo.h	/^	struct usb_device *udev;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::usb_device
+urb	uvcvideo.h	/^	struct urb *urb[UVC_URBS];$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::urb
+urb_buffer	uvcvideo.h	/^	char *urb_buffer[UVC_URBS];$/;"	m	struct:uvc_streaming
+urb_dma	uvcvideo.h	/^	dma_addr_t urb_dma[UVC_URBS];$/;"	m	struct:uvc_streaming
+urb_size	uvcvideo.h	/^	unsigned int urb_size;$/;"	m	struct:uvc_streaming
+usb_dev	uvcvideo.h	/^struct usb_dev {$/;"	s
+usb_endpoint_maxp_mult	uvc_video.c	/^static inline int usb_endpoint_maxp_mult(const struct usb_endpoint_descriptor *epd)$/;"	f	file:
+users	uvcvideo.h	/^	unsigned int users;$/;"	m	struct:uvc_device
+uvc_alloc_chain	ud.c	/^static struct uvc_video_chain *uvc_alloc_chain(struct uvc_device *dev)$/;"	f	file:
+uvc_alloc_chain	uvc_driver.c	/^static struct uvc_video_chain *uvc_alloc_chain(struct uvc_device *dev)$/;"	f	file:
+uvc_alloc_entity	ud.c	/^static struct uvc_entity *uvc_alloc_entity(u16 type, u8 id,$/;"	f	file:
+uvc_alloc_entity	uvc_driver.c	/^static struct uvc_entity *uvc_alloc_entity(u16 type, u8 id,$/;"	f	file:
+uvc_alloc_urb_buffers	uvc_video.c	/^static int uvc_alloc_urb_buffers(struct uvc_streaming *stream,$/;"	f	file:
+uvc_buffer	uvcvideo.h	/^struct uvc_buffer {$/;"	s
+uvc_buffer_state	uvcvideo.h	/^enum uvc_buffer_state {$/;"	g
+uvc_camera_guid	uvc_ctrl.c	/^static const __u8 uvc_camera_guid[16] = UVC_GUID_UVC_CAMERA;$/;"	v	file:
+uvc_cleanup	ud.c	/^module_exit(uvc_cleanup);$/;"	v
+uvc_cleanup	ud.c	/^static void __exit uvc_cleanup(void)$/;"	f	file:
+uvc_cleanup	uvc_driver.c	/^module_exit(uvc_cleanup);$/;"	v
+uvc_cleanup	uvc_driver.c	/^static void __exit uvc_cleanup(void)$/;"	f	file:
+uvc_clear_bit	uvc_ctrl.c	/^static inline void uvc_clear_bit(__u8 *data, int bit)$/;"	f	file:
+uvc_clock	uvcvideo.h	/^	struct uvc_clock {$/;"	s	struct:uvc_streaming
+uvc_clock_param	ud.c	/^unsigned int uvc_clock_param = CLOCK_MONOTONIC;$/;"	v
+uvc_clock_param	uvc_driver.c	/^unsigned int uvc_clock_param = CLOCK_MONOTONIC;$/;"	v
+uvc_clock_param_get	ud.c	/^static int uvc_clock_param_get(char *buffer, const struct kernel_param *kp)$/;"	f	file:
+uvc_clock_param_get	uvc_driver.c	/^static int uvc_clock_param_get(char *buffer, const struct kernel_param *kp)$/;"	f	file:
+uvc_clock_param_set	ud.c	/^static int uvc_clock_param_set(const char *val, const struct kernel_param *kp)$/;"	f	file:
+uvc_clock_param_set	uvc_driver.c	/^static int uvc_clock_param_set(const char *val, const struct kernel_param *kp)$/;"	f	file:
+uvc_clock_sample	uvcvideo.h	/^		struct uvc_clock_sample {$/;"	s	struct:uvc_streaming::uvc_clock
+uvc_commit_video	uvc_video.c	/^static int uvc_commit_video(struct uvc_streaming *stream,$/;"	f	file:
+uvc_control	uvcvideo.h	/^struct uvc_control {$/;"	s
+uvc_control_info	uvcvideo.h	/^struct uvc_control_info {$/;"	s
+uvc_control_mapping	uvcvideo.h	/^struct uvc_control_mapping {$/;"	s
+uvc_ctrl_add_info	uvc_ctrl.c	/^static int uvc_ctrl_add_info(struct uvc_device *dev, struct uvc_control *ctrl,$/;"	f	file:
+uvc_ctrl_cleanup_device	uvc_ctrl.c	/^void uvc_ctrl_cleanup_device(struct uvc_device *dev)$/;"	f
+uvc_ctrl_cleanup_mappings	uvc_ctrl.c	/^static void uvc_ctrl_cleanup_mappings(struct uvc_device *dev,$/;"	f	file:
+uvc_ctrl_commit_entity	uvc_ctrl.c	/^static int uvc_ctrl_commit_entity(struct uvc_device *dev,$/;"	f	file:
+uvc_ctrl_data	uvc_ctrl.c	/^static inline __u8 *uvc_ctrl_data(struct uvc_control *ctrl, int id)$/;"	f	file:
+uvc_ctrl_init_ctrl	uvc_ctrl.c	/^static void uvc_ctrl_init_ctrl(struct uvc_device *dev, struct uvc_control *ctrl)$/;"	f	file:
+uvc_ctrl_init_device	uvc_ctrl.c	/^int uvc_ctrl_init_device(struct uvc_device *dev)$/;"	f
+uvc_ctrl_mappings	uvc_ctrl.c	/^static struct uvc_control_mapping uvc_ctrl_mappings[] = {$/;"	v	typeref:struct:uvc_control_mapping	file:
+uvc_ctrl_prune_entity	uvc_ctrl.c	/^static void uvc_ctrl_prune_entity(struct uvc_device *dev,$/;"	f	file:
+uvc_ctrl_restore_values	uvc_ctrl.c	/^int uvc_ctrl_restore_values(struct uvc_device *dev)$/;"	f
+uvc_ctrls	uvc_ctrl.c	/^static struct uvc_control_info uvc_ctrls[] = {$/;"	v	typeref:struct:uvc_control_info	file:
+uvc_data	uvcvideo.h	/^	__u8 *uvc_data;$/;"	m	struct:uvc_control
+uvc_debugfs_buffer	uvc_debugfs.c	/^struct uvc_debugfs_buffer {$/;"	s	file:
+uvc_debugfs_cleanup	uvc_debugfs.c	/^void uvc_debugfs_cleanup(void)$/;"	f
+uvc_debugfs_cleanup_stream	uvc_debugfs.c	/^void uvc_debugfs_cleanup_stream(struct uvc_streaming *stream)$/;"	f
+uvc_debugfs_init	uvc_debugfs.c	/^void uvc_debugfs_init(void)$/;"	f
+uvc_debugfs_init_stream	uvc_debugfs.c	/^void uvc_debugfs_init_stream(struct uvc_streaming *stream)$/;"	f
+uvc_debugfs_root_dir	uvc_debugfs.c	/^static struct dentry *uvc_debugfs_root_dir;$/;"	v	typeref:struct:dentry	file:
+uvc_debugfs_stats_fops	uvc_debugfs.c	/^static const struct file_operations uvc_debugfs_stats_fops = {$/;"	v	typeref:struct:file_operations	file:
+uvc_debugfs_stats_open	uvc_debugfs.c	/^static int uvc_debugfs_stats_open(struct inode *inode, struct file *file)$/;"	f	file:
+uvc_debugfs_stats_read	uvc_debugfs.c	/^static ssize_t uvc_debugfs_stats_read(struct file *file, char __user *user_buf,$/;"	f	file:
+uvc_debugfs_stats_release	uvc_debugfs.c	/^static int uvc_debugfs_stats_release(struct inode *inode, struct file *file)$/;"	f	file:
+uvc_delete	ud.c	/^static void uvc_delete(struct kref *kref)$/;"	f	file:
+uvc_delete	uvc_driver.c	/^static void uvc_delete(struct kref *kref)$/;"	f	file:
+uvc_device	uvcvideo.h	/^struct uvc_device {$/;"	s
+uvc_disconnect	ud.c	/^static void uvc_disconnect(struct usb_interface *intf)$/;"	f	file:
+uvc_disconnect	uvc_driver.c	/^static void uvc_disconnect(struct usb_interface *intf)$/;"	f	file:
+uvc_driver	ud.c	/^struct uvc_driver uvc_driver = {$/;"	v	typeref:struct:uvc_driver
+uvc_driver	uvc_driver.c	/^struct uvc_driver uvc_driver = {$/;"	v	typeref:struct:uvc_driver
+uvc_driver	uvcvideo.h	/^struct uvc_driver {$/;"	s
+uvc_endpoint_max_bpi	uvc_video.c	/^static unsigned int uvc_endpoint_max_bpi(struct usb_device *dev,$/;"	f	file:
+uvc_entity	uvcvideo.h	/^struct uvc_entity {$/;"	s
+uvc_entity_by_id	ud.c	/^struct uvc_entity *uvc_entity_by_id(struct uvc_device *dev, int id)$/;"	f
+uvc_entity_by_id	uvc_driver.c	/^struct uvc_entity *uvc_entity_by_id(struct uvc_device *dev, int id)$/;"	f
+uvc_entity_by_reference	ud.c	/^static struct uvc_entity *uvc_entity_by_reference(struct uvc_device *dev,$/;"	f	file:
+uvc_entity_by_reference	uvc_driver.c	/^static struct uvc_entity *uvc_entity_by_reference(struct uvc_device *dev,$/;"	f	file:
+uvc_entity_match_guid	uvc_ctrl.c	/^static int uvc_entity_match_guid(const struct uvc_entity *entity,$/;"	f	file:
+uvc_event_control	uvc_status.c	/^static void uvc_event_control(struct uvc_device *dev, __u8 *data, int len)$/;"	f	file:
+uvc_event_streaming	uvc_status.c	/^static void uvc_event_streaming(struct uvc_device *dev, __u8 *data, int len)$/;"	f	file:
+uvc_fh	uvcvideo.h	/^struct uvc_fh {$/;"	s
+uvc_find_endpoint	ud.c	/^struct usb_host_endpoint *uvc_find_endpoint(struct usb_host_interface *alts,$/;"	f
+uvc_find_endpoint	uvc_driver.c	/^struct usb_host_endpoint *uvc_find_endpoint(struct usb_host_interface *alts,$/;"	f
+uvc_fixup_video_ctrl	uvc_video.c	/^static void uvc_fixup_video_ctrl(struct uvc_streaming *stream,$/;"	f	file:
+uvc_fmts	ud.c	/^static struct uvc_format_desc uvc_fmts[] = {$/;"	v	typeref:struct:uvc_format_desc	file:
+uvc_fmts	uvc_driver.c	/^static struct uvc_format_desc uvc_fmts[] = {$/;"	v	typeref:struct:uvc_format_desc	file:
+uvc_format	uvcvideo.h	/^struct uvc_format {$/;"	s
+uvc_format_by_guid	ud.c	/^static struct uvc_format_desc *uvc_format_by_guid(const __u8 guid[16])$/;"	f	file:
+uvc_format_by_guid	uvc_driver.c	/^static struct uvc_format_desc *uvc_format_by_guid(const __u8 guid[16])$/;"	f	file:
+uvc_format_desc	uvcvideo.h	/^struct uvc_format_desc {$/;"	s
+uvc_frame	uvcvideo.h	/^struct uvc_frame {$/;"	s
+uvc_free_urb_buffers	uvc_video.c	/^static void uvc_free_urb_buffers(struct uvc_streaming *stream)$/;"	f	file:
+uvc_get_le_value	uvc_ctrl.c	/^static __s32 uvc_get_le_value(struct uvc_control_mapping *mapping,$/;"	f	file:
+uvc_get_video_ctrl	uvc_video.c	/^static int uvc_get_video_ctrl(struct uvc_streaming *stream,$/;"	f	file:
+uvc_handle_state	uvcvideo.h	/^enum uvc_handle_state {$/;"	g
+uvc_hw_timestamps_param	ud.c	/^unsigned int uvc_hw_timestamps_param;$/;"	v
+uvc_hw_timestamps_param	uvc_driver.c	/^unsigned int uvc_hw_timestamps_param;$/;"	v
+uvc_ids	ud.c	/^static const struct usb_device_id uvc_ids[] = {$/;"	v	typeref:struct:usb_device_id	file:
+uvc_ids	uvc_driver.c	/^static const struct usb_device_id uvc_ids[] = {$/;"	v	typeref:struct:usb_device_id	file:
+uvc_init	ud.c	/^module_init(uvc_init);$/;"	v
+uvc_init	ud.c	/^static int __init uvc_init(void)$/;"	f	file:
+uvc_init	uvc_driver.c	/^module_init(uvc_init);$/;"	v
+uvc_init	uvc_driver.c	/^static int __init uvc_init(void)$/;"	f	file:
+uvc_init_video	uvc_video.c	/^static int uvc_init_video(struct uvc_streaming *stream, gfp_t gfp_flags)$/;"	f	file:
+uvc_init_video_bulk	uvc_video.c	/^static int uvc_init_video_bulk(struct uvc_streaming *stream,$/;"	f	file:
+uvc_init_video_isoc	uvc_video.c	/^static int uvc_init_video_isoc(struct uvc_streaming *stream,$/;"	f	file:
+uvc_input_cleanup	uvc_status.c	/^static void uvc_input_cleanup(struct uvc_device *dev)$/;"	f	file:
+uvc_input_cleanup	uvc_status.c	84;"	d	file:
+uvc_input_init	uvc_status.c	/^static int uvc_input_init(struct uvc_device *dev)$/;"	f	file:
+uvc_input_init	uvc_status.c	83;"	d	file:
+uvc_input_report_key	uvc_status.c	/^static void uvc_input_report_key(struct uvc_device *dev, unsigned int code,$/;"	f	file:
+uvc_input_report_key	uvc_status.c	85;"	d	file:
+uvc_media_transport_input_guid	uvc_ctrl.c	/^static const __u8 uvc_media_transport_input_guid[16] =$/;"	v	file:
+uvc_no_drop_param	ud.c	/^unsigned int uvc_no_drop_param;$/;"	v
+uvc_no_drop_param	uvc_driver.c	/^unsigned int uvc_no_drop_param;$/;"	v
+uvc_parse_control	ud.c	/^static int uvc_parse_control(struct uvc_device *dev)$/;"	f	file:
+uvc_parse_control	uvc_driver.c	/^static int uvc_parse_control(struct uvc_device *dev)$/;"	f	file:
+uvc_parse_format	ud.c	/^static int uvc_parse_format(struct uvc_device *dev,$/;"	f	file:
+uvc_parse_format	uvc_driver.c	/^static int uvc_parse_format(struct uvc_device *dev,$/;"	f	file:
+uvc_parse_standard_control	ud.c	/^static int uvc_parse_standard_control(struct uvc_device *dev,$/;"	f	file:
+uvc_parse_standard_control	uvc_driver.c	/^static int uvc_parse_standard_control(struct uvc_device *dev,$/;"	f	file:
+uvc_parse_streaming	ud.c	/^static int uvc_parse_streaming(struct uvc_device *dev,$/;"	f	file:
+uvc_parse_streaming	uvc_driver.c	/^static int uvc_parse_streaming(struct uvc_device *dev,$/;"	f	file:
+uvc_parse_vendor_control	ud.c	/^static int uvc_parse_vendor_control(struct uvc_device *dev,$/;"	f	file:
+uvc_parse_vendor_control	uvc_driver.c	/^static int uvc_parse_vendor_control(struct uvc_device *dev,$/;"	f	file:
+uvc_print_chain	ud.c	/^static const char *uvc_print_chain(struct uvc_video_chain *chain)$/;"	f	file:
+uvc_print_chain	uvc_driver.c	/^static const char *uvc_print_chain(struct uvc_video_chain *chain)$/;"	f	file:
+uvc_print_terms	ud.c	/^static unsigned int uvc_print_terms(struct list_head *terms, u16 dir,$/;"	f	file:
+uvc_print_terms	uvc_driver.c	/^static unsigned int uvc_print_terms(struct list_head *terms, u16 dir,$/;"	f	file:
+uvc_printk	uvcvideo.h	638;"	d
+uvc_probe	ud.c	/^static int uvc_probe(struct usb_interface *intf,$/;"	f	file:
+uvc_probe	uvc_driver.c	/^static int uvc_probe(struct usb_interface *intf,$/;"	f	file:
+uvc_processing_guid	uvc_ctrl.c	/^static const __u8 uvc_processing_guid[16] = UVC_GUID_UVC_PROCESSING;$/;"	v	file:
+uvc_queue_cancel	uvc_queue.c	/^void uvc_queue_cancel(struct uvc_video_queue *queue, int disconnect)$/;"	f
+uvc_queue_init	uvc_queue.c	/^int uvc_queue_init(struct uvc_video_queue *queue, enum video_buf_type type,$/;"	f
+uvc_queue_next_buffer	uvc_queue.c	/^struct uvc_buffer *uvc_queue_next_buffer(struct uvc_video_queue *queue,$/;"	f
+uvc_queue_return_buffers	uvc_queue.c	/^static void uvc_queue_return_buffers(struct uvc_video_queue *queue,$/;"	f	file:
+uvc_quirks_param	ud.c	/^static unsigned int uvc_quirks_param = -1;$/;"	v	file:
+uvc_quirks_param	uvc_driver.c	/^static unsigned int uvc_quirks_param = -1;$/;"	v	file:
+uvc_register_chains	ud.c	/^static int uvc_register_chains(struct uvc_device *dev)$/;"	f	file:
+uvc_register_chains	uvc_driver.c	/^static int uvc_register_chains(struct uvc_device *dev)$/;"	f	file:
+uvc_register_terms	ud.c	/^static int uvc_register_terms(struct uvc_device *dev,$/;"	f	file:
+uvc_register_terms	uvc_driver.c	/^static int uvc_register_terms(struct uvc_device *dev,$/;"	f	file:
+uvc_register_video	ud.c	/^static int uvc_register_video(struct uvc_device *dev,$/;"	f	file:
+uvc_register_video	uvc_driver.c	/^static int uvc_register_video(struct uvc_device *dev,$/;"	f	file:
+uvc_release	ud.c	/^static void uvc_release(struct video_device *vdev)$/;"	f	file:
+uvc_reset_resume	ud.c	/^static int uvc_reset_resume(struct usb_interface *intf)$/;"	f	file:
+uvc_resume	ud.c	/^static int uvc_resume(struct usb_interface *intf)$/;"	f	file:
+uvc_scan_chain	ud.c	/^static int uvc_scan_chain(struct uvc_video_chain *chain,$/;"	f	file:
+uvc_scan_chain	uvc_driver.c	/^static int uvc_scan_chain(struct uvc_video_chain *chain,$/;"	f	file:
+uvc_scan_chain_backward	ud.c	/^static int uvc_scan_chain_backward(struct uvc_video_chain *chain,$/;"	f	file:
+uvc_scan_chain_backward	uvc_driver.c	/^static int uvc_scan_chain_backward(struct uvc_video_chain *chain,$/;"	f	file:
+uvc_scan_chain_entity	ud.c	/^static int uvc_scan_chain_entity(struct uvc_video_chain *chain,$/;"	f	file:
+uvc_scan_chain_entity	uvc_driver.c	/^static int uvc_scan_chain_entity(struct uvc_video_chain *chain,$/;"	f	file:
+uvc_scan_chain_forward	ud.c	/^static int uvc_scan_chain_forward(struct uvc_video_chain *chain,$/;"	f	file:
+uvc_scan_chain_forward	uvc_driver.c	/^static int uvc_scan_chain_forward(struct uvc_video_chain *chain,$/;"	f	file:
+uvc_scan_device	ud.c	/^static int uvc_scan_device(struct uvc_device *dev)$/;"	f	file:
+uvc_scan_device	uvc_driver.c	/^static int uvc_scan_device(struct uvc_device *dev)$/;"	f	file:
+uvc_scan_fallback	ud.c	/^static int uvc_scan_fallback(struct uvc_device *dev)$/;"	f	file:
+uvc_scan_fallback	uvc_driver.c	/^static int uvc_scan_fallback(struct uvc_device *dev)$/;"	f	file:
+uvc_set_le_value	uvc_ctrl.c	/^static void uvc_set_le_value(struct uvc_control_mapping *mapping,$/;"	f	file:
+uvc_set_video_ctrl	uvc_video.c	/^static int uvc_set_video_ctrl(struct uvc_streaming *stream,$/;"	f	file:
+uvc_stats_frame	uvcvideo.h	/^struct uvc_stats_frame {$/;"	s
+uvc_status_cleanup	uvc_status.c	/^void uvc_status_cleanup(struct uvc_device *dev)$/;"	f
+uvc_status_complete	uvc_status.c	/^static void uvc_status_complete(struct urb *urb)$/;"	f	file:
+uvc_status_init	uvc_status.c	/^int uvc_status_init(struct uvc_device *dev)$/;"	f
+uvc_status_start	uvc_status.c	/^int uvc_status_start(struct uvc_device *dev, gfp_t flags)$/;"	f
+uvc_status_stop	uvc_status.c	/^void uvc_status_stop(struct uvc_device *dev)$/;"	f
+uvc_stream_by_id	ud.c	/^static struct uvc_streaming *uvc_stream_by_id(struct uvc_device *dev, int id)$/;"	f	file:
+uvc_stream_by_id	uvc_driver.c	/^static struct uvc_streaming *uvc_stream_by_id(struct uvc_device *dev, int id)$/;"	f	file:
+uvc_streaming	uvcvideo.h	/^struct uvc_streaming {$/;"	s
+uvc_streaming_header	uvcvideo.h	/^struct uvc_streaming_header {$/;"	s
+uvc_suspend	ud.c	/^static int uvc_suspend(struct usb_interface *intf, pm_message_t message)$/;"	f	file:
+uvc_test_bit	uvc_ctrl.c	/^static inline int uvc_test_bit(const __u8 *data, int bit)$/;"	f	file:
+uvc_timeout_param	ud.c	/^unsigned int uvc_timeout_param = UVC_CTRL_STREAMING_TIMEOUT;$/;"	v
+uvc_timeout_param	uvc_driver.c	/^unsigned int uvc_timeout_param = UVC_CTRL_STREAMING_TIMEOUT;$/;"	v
+uvc_trace	uvcvideo.h	626;"	d
+uvc_trace_param	ud.c	/^unsigned int uvc_trace_param;$/;"	v
+uvc_trace_param	uvc_driver.c	/^unsigned int uvc_trace_param;$/;"	v
+uvc_uninit_video	uvc_video.c	/^static void uvc_uninit_video(struct uvc_streaming *stream, int free_buffers)$/;"	f	file:
+uvc_unregister_video	ud.c	/^static void uvc_unregister_video(struct uvc_device *dev)$/;"	f	file:
+uvc_unregister_video	uvc_driver.c	/^static void uvc_unregister_video(struct uvc_device *dev)$/;"	f	file:
+uvc_version	uvcvideo.h	/^	__u16 uvc_version;$/;"	m	struct:uvc_device
+uvc_video_chain	uvcvideo.h	/^struct uvc_video_chain {$/;"	s
+uvc_video_clock_cleanup	uvc_video.c	/^static void uvc_video_clock_cleanup(struct uvc_streaming *stream)$/;"	f	file:
+uvc_video_clock_decode	uvc_video.c	/^uvc_video_clock_decode(struct uvc_streaming *stream, struct uvc_buffer *buf,$/;"	f	file:
+uvc_video_clock_init	uvc_video.c	/^static int uvc_video_clock_init(struct uvc_streaming *stream)$/;"	f	file:
+uvc_video_clock_reset	uvc_video.c	/^static void uvc_video_clock_reset(struct uvc_streaming *stream)$/;"	f	file:
+uvc_video_complete	uvc_video.c	/^static void uvc_video_complete(struct urb *urb)$/;"	f	file:
+uvc_video_decode_bulk	uvc_video.c	/^static void uvc_video_decode_bulk(struct urb *urb, struct uvc_streaming *stream,$/;"	f	file:
+uvc_video_decode_data	uvc_video.c	/^static void uvc_video_decode_data(struct uvc_streaming *stream,$/;"	f	file:
+uvc_video_decode_end	uvc_video.c	/^static void uvc_video_decode_end(struct uvc_streaming *stream,$/;"	f	file:
+uvc_video_decode_isight	uvc_isight.c	/^void uvc_video_decode_isight(struct urb *urb, struct uvc_streaming *stream,$/;"	f
+uvc_video_decode_isoc	uvc_video.c	/^static void uvc_video_decode_isoc(struct urb *urb, struct uvc_streaming *stream,$/;"	f	file:
+uvc_video_decode_start	uvc_video.c	/^static int uvc_video_decode_start(struct uvc_streaming *stream,$/;"	f	file:
+uvc_video_enable	uvc_video.c	/^int uvc_video_enable(struct uvc_streaming *stream, int enable)$/;"	f
+uvc_video_encode_bulk	uvc_video.c	/^static void uvc_video_encode_bulk(struct urb *urb, struct uvc_streaming *stream,$/;"	f	file:
+uvc_video_encode_data	uvc_video.c	/^static int uvc_video_encode_data(struct uvc_streaming *stream,$/;"	f	file:
+uvc_video_encode_header	uvc_video.c	/^static int uvc_video_encode_header(struct uvc_streaming *stream,$/;"	f	file:
+uvc_video_get_ts	uvc_video.c	/^static inline void uvc_video_get_ts(struct timespec *ts)$/;"	f	file:
+uvc_video_init	uvc_video.c	/^int uvc_video_init(struct uvc_streaming *stream)$/;"	f
+uvc_video_queue	uvcvideo.h	/^struct uvc_video_queue {$/;"	s
+uvc_video_resume	uvc_video.c	/^int uvc_video_resume(struct uvc_streaming *stream, int reset)$/;"	f
+uvc_video_stats_decode	uvc_video.c	/^static void uvc_video_stats_decode(struct uvc_streaming *stream,$/;"	f	file:
+uvc_video_stats_dump	uvc_video.c	/^size_t uvc_video_stats_dump(struct uvc_streaming *stream, char *buf,$/;"	f
+uvc_video_stats_start	uvc_video.c	/^static void uvc_video_stats_start(struct uvc_streaming *stream)$/;"	f	file:
+uvc_video_stats_stop	uvc_video.c	/^static void uvc_video_stats_stop(struct uvc_streaming *stream)$/;"	f	file:
+uvc_video_stats_update	uvc_video.c	/^static void uvc_video_stats_update(struct uvc_streaming *stream)$/;"	f	file:
+uvc_video_suspend	uvc_video.c	/^int uvc_video_suspend(struct uvc_streaming *stream)$/;"	f
+uvc_video_validate_buffer	uvc_video.c	/^static void uvc_video_validate_buffer(const struct uvc_streaming *stream,$/;"	f	file:
+uvc_warn_once	uvcvideo.h	632;"	d
+uvcvideo-objs	Makefile	/^uvcvideo-objs  := uvc_driver.o uvc_queue.o  uvc_video.o uvc_ctrl.o \\$/;"	m
+vdev	uvcvideo.h	/^	struct video_device *vdev;$/;"	m	struct:uvc_entity	typeref:struct:uvc_entity::video_device
+vdev	uvcvideo.h	/^	struct video_device vdev;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::video_device
+vfl_dir	uvcvideo.h	/^    int vfl_dir;   \/\/ receiver, transmitter or m2m $/;"	m	struct:video_device
+vfl_type	uvcvideo.h	/^    int vfl_type;  \/\/ device type $/;"	m	struct:video_device
+video_auto_n_preset_white_balance	video_cntrl.h	/^enum video_auto_n_preset_white_balance {$/;"	g
+video_buf_type	uvcvideo.h	/^enum video_buf_type {$/;"	g
+video_colorfx	video_cntrl.h	/^enum video_colorfx {$/;"	g
+video_colorspace	video_cntrl.h	/^enum video_colorspace {$/;"	g
+video_ctrl_type	uvcvideo.h	/^enum video_ctrl_type {$/;"	g
+video_device	uvcvideo.h	/^struct video_device$/;"	s
+video_exposure_auto_type	video_cntrl.h	/^enum  video_exposure_auto_type {$/;"	g
+video_fourcc	uvcvideo.h	109;"	d
+video_iso_sensitivity_auto_type	video_cntrl.h	/^enum video_iso_sensitivity_auto_type {$/;"	g
+video_mpeg_stream_type	video_cntrl.h	/^enum video_mpeg_stream_type {$/;"	g
+video_mpeg_stream_vbi_fmt	video_cntrl.h	/^enum video_mpeg_stream_vbi_fmt {$/;"	g
+video_mpeg_video_aspect	video_cntrl.h	/^enum video_mpeg_video_aspect {$/;"	g
+video_mpeg_video_bitrate_mode	video_cntrl.h	/^enum video_mpeg_video_bitrate_mode {$/;"	g
+video_mpeg_video_encoding	video_cntrl.h	/^enum video_mpeg_video_encoding {$/;"	g
+video_mpeg_video_header_mode	video_cntrl.h	/^enum video_mpeg_video_header_mode {$/;"	g
+video_mpeg_video_multi_slice_mode	video_cntrl.h	/^enum video_mpeg_video_multi_slice_mode {$/;"	g
+video_power_line_frequency	video_cntrl.h	/^enum video_power_line_frequency {$/;"	g
+video_type	uvcvideo.h	/^    enum video_ctrl_type video_type;$/;"	m	struct:uvc_control_mapping	typeref:enum:uvc_control_mapping::video_ctrl_type
+wHeight	uvcvideo.h	/^	__u16 wHeight;$/;"	m	struct:uvc_frame
+wMaxMultiplier	uvcvideo.h	/^			__u16 wMaxMultiplier;$/;"	m	struct:uvc_entity::__anon1::__anon5
+wObjectiveFocalLengthMax	uvcvideo.h	/^			__u16 wObjectiveFocalLengthMax;$/;"	m	struct:uvc_entity::__anon1::__anon2
+wObjectiveFocalLengthMin	uvcvideo.h	/^			__u16 wObjectiveFocalLengthMin;$/;"	m	struct:uvc_entity::__anon1::__anon2
+wOcularFocalLength	uvcvideo.h	/^			__u16 wOcularFocalLength;$/;"	m	struct:uvc_entity::__anon1::__anon2
+wWidth	uvcvideo.h	/^	__u16 wWidth;$/;"	m	struct:uvc_frame
+warnings	uvcvideo.h	/^	unsigned long warnings;$/;"	m	struct:uvc_device
